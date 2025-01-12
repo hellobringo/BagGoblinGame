@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bu1ctoclb4qbf"
+path="res://.godot/imported/SM_Tile_Cube_Mountain_04.obj-6450b9e3c18a050da39a3f6ef313e6bf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Tile_Cube_Mountain_04.obj-6450b9e3c18a050da39a3f6ef313e6bf.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Tile_Cube_Mountain_04.obj"
+dest_files=["res://.godot/imported/SM_Tile_Cube_Mountain_04.obj-6450b9e3c18a050da39a3f6ef313e6bf.mesh", "res://.godot/imported/SM_Tile_Cube_Mountain_04.obj-6450b9e3c18a050da39a3f6ef313e6bf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,725 @@
+-------------------
+Folder Name: Characters
+-------------------
+Prefab Name: Character_AncientQueen_01
+    Mesh Name: Character_Ancient_Warrior_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_AncientQueen_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_DarkElf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_EvilGod_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestGuardian_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestWitch_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Medusa_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Mystic_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon_Glow
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_AncientWarrior_01
+    Mesh Name: Character_Ancient_Warrior_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_AncientQueen_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_DarkElf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_EvilGod_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestGuardian_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestWitch_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Medusa_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Mystic_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon_Glow
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_BR_BarbarianGiant_01
+    Mesh Name: Character_BarbarianGiant_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Big_Ork_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Dwarf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ElementalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_FortGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MechanicalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MutantGuy_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Pig_Butcher_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_RedDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Slayer_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Troll_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_BR_BigOrk_01
+    Mesh Name: Character_BarbarianGiant_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Big_Ork_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Dwarf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ElementalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_FortGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MechanicalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MutantGuy_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Pig_Butcher_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_RedDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Slayer_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Troll_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_BR_Dwarf_01
+    Mesh Name: Character_BarbarianGiant_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Big_Ork_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Dwarf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ElementalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_FortGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MechanicalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MutantGuy_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Pig_Butcher_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_RedDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Slayer_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Troll_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_BR_ElementalGolem_01
+    Mesh Name: Character_BarbarianGiant_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Big_Ork_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Dwarf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ElementalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_FortGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MechanicalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MutantGuy_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Pig_Butcher_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_RedDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Slayer_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Troll_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_BR_FortGolem_01
+    Mesh Name: Character_BarbarianGiant_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Big_Ork_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Dwarf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ElementalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_FortGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MechanicalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MutantGuy_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Pig_Butcher_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_RedDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Slayer_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Troll_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_BR_MechanicalGolem_01
+    Mesh Name: Character_BarbarianGiant_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Big_Ork_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Dwarf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ElementalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_FortGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MechanicalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MutantGuy_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Pig_Butcher_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_RedDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Slayer_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Troll_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_BR_MutantGuy_01
+    Mesh Name: Character_BarbarianGiant_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Big_Ork_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Dwarf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ElementalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_FortGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MechanicalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MutantGuy_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Pig_Butcher_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_RedDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Slayer_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Troll_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_BR_PigButcher_01
+    Mesh Name: Character_BarbarianGiant_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Big_Ork_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Dwarf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ElementalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_FortGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MechanicalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MutantGuy_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Pig_Butcher_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_RedDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Slayer_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Troll_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_BR_RedDemon_01
+    Mesh Name: Character_BarbarianGiant_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Big_Ork_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Dwarf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ElementalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_FortGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MechanicalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MutantGuy_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Pig_Butcher_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_RedDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Slayer_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Troll_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_BR_Slayer_01
+    Mesh Name: Character_BarbarianGiant_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Big_Ork_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Dwarf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ElementalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_FortGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MechanicalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MutantGuy_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Pig_Butcher_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_RedDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Slayer_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Troll_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_BR_Troll_01
+    Mesh Name: Character_BarbarianGiant_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Big_Ork_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Dwarf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ElementalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_FortGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MechanicalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MutantGuy_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Pig_Butcher_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_RedDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Slayer_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Troll_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: SM_Prop_Troll_Helmet
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_DarkElf_01
+    Mesh Name: Character_Ancient_Warrior_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_AncientQueen_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_DarkElf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_EvilGod_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestGuardian_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestWitch_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Medusa_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Mystic_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon_Glow
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_EvilGod_01
+    Mesh Name: Character_Ancient_Warrior_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_AncientQueen_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_DarkElf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_EvilGod_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestGuardian_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestWitch_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Medusa_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Mystic_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon_Glow
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_ForestGuardian_01
+    Mesh Name: Character_Ancient_Warrior_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_AncientQueen_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_DarkElf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_EvilGod_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestGuardian_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestWitch_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Medusa_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Mystic_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon_Glow
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_ForestWitch_01
+    Mesh Name: Character_Ancient_Warrior_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_AncientQueen_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_DarkElf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_EvilGod_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestGuardian_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestWitch_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Medusa_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Mystic_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon_Glow
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_Medusa_01
+    Mesh Name: Character_Ancient_Warrior_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_AncientQueen_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_DarkElf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_EvilGod_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestGuardian_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestWitch_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Medusa_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Mystic_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon_Glow
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_MedusaSnakes_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: Character_Mystic_01
+    Mesh Name: Character_Ancient_Warrior_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_AncientQueen_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_DarkElf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_EvilGod_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestGuardian_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestWitch_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Medusa_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Mystic_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon_Glow
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Arms_01
+        Slot: FantasyRivals_MysticArms (Uses custom shader)
+    Mesh Name: Arms_01
+        Slot: FantasyRivals_MysticArms (Uses custom shader)
+
+Prefab Name: Character_SpiritDemon_01
+    Mesh Name: Character_Ancient_Warrior_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_AncientQueen_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_DarkElf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_EvilGod_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestGuardian_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_ForestWitch_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Medusa_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_Mystic_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: Character_SpiritDemon_Glow
+        Slot: FantasyRivals_SpiritDemon (Mystic_Arms)
+
+-------------------
+Folder Name: FX
+-------------------
+Prefab Name: BloodSplat_FX
+    Mesh Name: BloodSplat_FX
+        Slot: Sprites-Default (Uses custom shader)
+
+Prefab Name: EnergyPull_FX
+    Mesh Name: EnergyPull_FX
+        Slot: FX_SphereGlow (Uses custom shader)
+
+Prefab Name: EnergyPush_FX
+    Mesh Name: EnergyPush_FX
+        Slot: FX_SphereGlow (Uses custom shader)
+
+Prefab Name: Fireball_FX
+    Mesh Name: Fireball_FX
+        Slot: Polygon_FX (Uses custom shader)
+        Slot: FX_Lighting (Uses custom shader)
+
+Prefab Name: Fireball_Shooting_FX
+    Mesh Name: Fireball_Shooting_FX
+        Slot: Polygon_FX (Uses custom shader)
+        Slot: FX_Lighting (Uses custom shader)
+    Mesh Name: Fire_Shooting_Trail_FX
+        Slot: Polygon_FX (Uses custom shader)
+
+Prefab Name: Fire_01_FX
+    Mesh Name: Fire_01_FX
+        Slot: Polygon_FX (Uses custom shader)
+
+Prefab Name: Fire_02_FX
+    Mesh Name: Fire_02_FX
+        Slot: Polygon_FX (Uses custom shader)
+
+Prefab Name: Fire_Circle_FX
+    Mesh Name: Fire_Circle_FX
+        Slot: Polygon_FX (Uses custom shader)
+        Slot: FX_Lighting (Uses custom shader)
+
+Prefab Name: Fire_Swirls_FX
+    Mesh Name: Fire_Swirls_FX
+        Slot: Polygon_FX (Uses custom shader)
+        Slot: FX_Lighting (Uses custom shader)
+
+Prefab Name: FX_Runes
+    Mesh Name: Runes_Inner
+        Slot: FantasyRivals_Runes (Uses custom shader)
+    Mesh Name: Runes_Outer
+        Slot: FantasyRivals_Runes (Uses custom shader)
+
+Prefab Name: Magic_Missile_FX
+    Mesh Name: Magic_Missile_FX
+        Slot: Polygon_FX_Blank (Uses custom shader)
+        Slot: FX_Lighting (Uses custom shader)
+
+Prefab Name: Magic_Swirl_FX
+    Mesh Name: Magic_Swirl_FX
+        Slot: Polygon_FX (Uses custom shader)
+        Slot: FX_Lighting (Uses custom shader)
+
+Prefab Name: Small_Energy_Cube_FX
+    Mesh Name: Small_Energy_Cube_FX
+        Slot: Polygon_FX (Uses custom shader)
+        Slot: FX_Lighting (Uses custom shader)
+
+Prefab Name: Small_Energy_Soft_FX
+    Mesh Name: Small_Energy_Soft_FX
+        Slot: FX_SphereGlow (Uses custom shader)
+        Slot: FX_Lighting (Uses custom shader)
+
+Prefab Name: Smoke_Large_FX
+    Mesh Name: Smoke_Large_FX
+        Slot: Polygon_Smoke_Particle_FX (Uses custom shader)
+
+Prefab Name: Smoke_Small_Dark_FX
+    Mesh Name: Smoke_Small_Dark_FX
+        Slot: Polygon_FX_Blank (Uses custom shader)
+        Slot: Polygon_FX_Blank (Uses custom shader)
+
+Prefab Name: Sparks_FX
+    Mesh Name: Sparks_FX
+        Slot: FX_Lighting (Uses custom shader)
+
+-------------------
+Folder Name: Props
+-------------------
+Prefab Name: SM_Base_Dirt_01
+    Mesh Name: SM_Base_Dirt_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Base_Dungeon_01
+    Mesh Name: SM_Base_Dungeon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Base_Grass_01
+    Mesh Name: SM_Base_Grass_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Base_Mechanical_01
+    Mesh Name: SM_Base_Mechanical_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Base_Rock_01
+    Mesh Name: SM_Base_Rock_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Backharness_01
+    Mesh Name: SM_Prop_Backharness_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Backharness_02
+    Mesh Name: SM_Prop_Backharness_02
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Backharness_03
+    Mesh Name: SM_Prop_Backharness_03
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Bones_01
+    Mesh Name: SM_Prop_Bones_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Mushroom_01
+    Mesh Name: SM_Prop_Mushroom_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Mushroom_02
+    Mesh Name: SM_Prop_Mushroom_02
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Pouch_01
+    Mesh Name: SM_Prop_Pouch_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Pouch_02
+    Mesh Name: SM_Prop_Pouch_02
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Pouch_03
+    Mesh Name: SM_Prop_Pouch_03
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Pouch_Bag_01
+    Mesh Name: SM_Prop_Pouch_Bag_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Skull_01
+    Mesh Name: SM_Prop_Skull_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Tree_01
+    Mesh Name: SM_Prop_Tree_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Tree_02
+    Mesh Name: SM_Prop_Tree_02
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Prop_Troll_Helmet
+    Mesh Name: SM_Prop_Troll_Helmet
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+-------------------
+Folder Name: Weapons
+-------------------
+Prefab Name: SM_Wep_AncientQueen_01
+    Mesh Name: SM_Wep_AncientQueen_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_AncientWarrior_01
+    Mesh Name: SM_Wep_AncientWarrior_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_BarbarianGiant_01
+    Mesh Name: SM_Wep_BarbarianGiant_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_BigOrk_01
+    Mesh Name: SM_Wep_BigOrk_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_DarkElf_01
+    Mesh Name: SM_Wep_DarkElf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_Dwarf_01
+    Mesh Name: SM_Wep_Dwarf_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_ElementalGolem_01
+    Mesh Name: SM_Wep_ElementalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_EvilGod_01
+    Mesh Name: SM_Wep_EvilGod_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_ForestGuardian_01
+    Mesh Name: SM_Wep_ForestGuardian_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_ForestWitch_01
+    Mesh Name: SM_Wep_ForestWitch_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_FortGolem_01
+    Mesh Name: SM_Wep_FortGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_MechanicalGolem_01
+    Mesh Name: SM_Wep_MechanicalGolem_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_MechanicalGolem_02
+    Mesh Name: SM_Wep_MechanicalGolem_02
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+    Mesh Name: SM_Wep_MechanicalGolem_02_Blade
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_Medusa_01
+    Mesh Name: SM_Wep_Medusa_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_MutantGuy_01
+    Mesh Name: SM_Wep_MutantGuy_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_Mystic_01
+    Mesh Name: SM_Wep_Mystic_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_PigButcher_01
+    Mesh Name: SM_Wep_PigButcher_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_RedDemon_01
+    Mesh Name: SM_Wep_RedDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_Slayer_01
+    Mesh Name: SM_Wep_Slayer_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_SpiritDemon_01
+    Mesh Name: SM_Wep_SpiritDemon_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+
+Prefab Name: SM_Wep_Troll_01
+    Mesh Name: SM_Wep_Troll_01
+        Slot: FantasyRivals_01_A (FantasyRivals_Texture_01_A)
+

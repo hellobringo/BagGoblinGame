@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bccyhbnxd82so"
+path="res://.godot/imported/SM_Wep_BarbarianGiant_01.obj-333307f1a41caa8d932e3594a7c58385.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Wep_BarbarianGiant_01.obj-333307f1a41caa8d932e3594a7c58385.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Fantasy_Rivals_SourceFiles_v3/OBJ/SM_Wep_BarbarianGiant_01.obj"
+dest_files=["res://.godot/imported/SM_Wep_BarbarianGiant_01.obj-333307f1a41caa8d932e3594a7c58385.mesh", "res://.godot/imported/SM_Wep_BarbarianGiant_01.obj-333307f1a41caa8d932e3594a7c58385.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dqqxaajgo8avb"
+path="res://.godot/imported/SM_Env_Samurai_Tree_01.obj-fdce783a61cb01f38a641bd6a08cea5f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Env_Samurai_Tree_01.obj-fdce783a61cb01f38a641bd6a08cea5f.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Env_Samurai_Tree_01.obj"
+dest_files=["res://.godot/imported/SM_Env_Samurai_Tree_01.obj-fdce783a61cb01f38a641bd6a08cea5f.mesh", "res://.godot/imported/SM_Env_Samurai_Tree_01.obj-fdce783a61cb01f38a641bd6a08cea5f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

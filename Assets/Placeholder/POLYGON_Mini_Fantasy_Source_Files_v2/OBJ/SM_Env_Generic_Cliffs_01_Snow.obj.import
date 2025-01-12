@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxkgg7dtcxdj5"
+path="res://.godot/imported/SM_Env_Generic_Cliffs_01_Snow.obj-6dfd44be215b272d08826f84b72a169f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Env_Generic_Cliffs_01_Snow.obj-6dfd44be215b272d08826f84b72a169f.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Env_Generic_Cliffs_01_Snow.obj"
+dest_files=["res://.godot/imported/SM_Env_Generic_Cliffs_01_Snow.obj-6dfd44be215b272d08826f84b72a169f.mesh", "res://.godot/imported/SM_Env_Generic_Cliffs_01_Snow.obj-6dfd44be215b272d08826f84b72a169f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

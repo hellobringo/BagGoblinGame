@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://4j17y00y1xos"
+path="res://.godot/imported/SM_Prop_Pouch_03.obj-6ddf4c2273c9e6cb50bb677703363a1d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Prop_Pouch_03.obj-6ddf4c2273c9e6cb50bb677703363a1d.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Fantasy_Rivals_SourceFiles_v3/OBJ/SM_Prop_Pouch_03.obj"
+dest_files=["res://.godot/imported/SM_Prop_Pouch_03.obj-6ddf4c2273c9e6cb50bb677703363a1d.mesh", "res://.godot/imported/SM_Prop_Pouch_03.obj-6ddf4c2273c9e6cb50bb677703363a1d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

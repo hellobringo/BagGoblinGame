@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=3 uid="uid://bhwvuwnu5yw1"]
+
+[ext_resource type="PackedScene" uid="uid://78sqpbeawjpd" path="res://Scenes/Hero Gameplay Window/hero_gameplay_window.tscn" id="1_khhdl"]
+
+[sub_resource type="Gradient" id="Gradient_ytkuf"]
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_tly27"]
+gradient = SubResource("Gradient_ytkuf")
+
+[node name="main" type="Node2D"]
+
+[node name="HeroGameplayContainer" type="Node2D" parent="."]
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="HeroGameplayContainer"]
+offset_left = 3.40003
+offset_top = 12.1447
+offset_right = 975.4
+offset_bottom = 604.145
+scale = Vector2(0.73516, 0.73516)
+
+[node name="SubViewport" type="SubViewport" parent="HeroGameplayContainer/SubViewportContainer"]
+handle_input_locally = false
+size = Vector2i(972, 592)
+render_target_update_mode = 4
+
+[node name="Hero Gameplay Window" parent="HeroGameplayContainer/SubViewportContainer/SubViewport" instance=ExtResource("1_khhdl")]
+
+[node name="border" type="Node2D" parent="HeroGameplayContainer"]
+
+[node name="Sprite2D" type="Sprite2D" parent="HeroGameplayContainer/border"]
+position = Vector2(361.4, 6.14467)
+scale = Vector2(2.8, 10.007)
+texture = SubResource("GradientTexture1D_tly27")
+
+[node name="Sprite2D3" type="Sprite2D" parent="HeroGameplayContainer/border"]
+position = Vector2(359.4, 448.145)
+rotation = -3.14159
+scale = Vector2(2.8, 10.007)
+texture = SubResource("GradientTexture1D_tly27")
+
+[node name="Sprite2D2" type="Sprite2D" parent="HeroGameplayContainer/border"]
+position = Vector2(6.40003, 227.145)
+rotation = 1.5708
+scale = Vector2(1.76676, 10.0068)
+texture = SubResource("GradientTexture1D_tly27")
+
+[node name="Sprite2D4" type="Sprite2D" parent="HeroGameplayContainer/border"]
+position = Vector2(716.4, 227.145)
+rotation = -1.5708
+scale = Vector2(1.76676, 10.0068)
+texture = SubResource("GradientTexture1D_tly27")

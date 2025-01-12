@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://daex3048mo524"
+path="res://.godot/imported/SM_Prop_Tree_02.obj-0910ca0a4cea99cc07833a881071235f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Prop_Tree_02.obj-0910ca0a4cea99cc07833a881071235f.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Fantasy_Rivals_SourceFiles_v3/OBJ/SM_Prop_Tree_02.obj"
+dest_files=["res://.godot/imported/SM_Prop_Tree_02.obj-0910ca0a4cea99cc07833a881071235f.mesh", "res://.godot/imported/SM_Prop_Tree_02.obj-0910ca0a4cea99cc07833a881071235f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

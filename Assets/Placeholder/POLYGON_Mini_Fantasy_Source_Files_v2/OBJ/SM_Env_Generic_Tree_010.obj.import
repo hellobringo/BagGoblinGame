@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bu1d5u46cy58e"
+path="res://.godot/imported/SM_Env_Generic_Tree_010.obj-88e44ed09498542ab30cb9c4b7a7e408.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Env_Generic_Tree_010.obj-88e44ed09498542ab30cb9c4b7a7e408.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Env_Generic_Tree_010.obj"
+dest_files=["res://.godot/imported/SM_Env_Generic_Tree_010.obj-88e44ed09498542ab30cb9c4b7a7e408.mesh", "res://.godot/imported/SM_Env_Generic_Tree_010.obj-88e44ed09498542ab30cb9c4b7a7e408.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

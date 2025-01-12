@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dni3jqtbiwp3g"
+path="res://.godot/imported/SM_Env_Samurai_Tree_01_Snow.obj-f89d1f531da06531c5241a5c8313b260.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Env_Samurai_Tree_01_Snow.obj-f89d1f531da06531c5241a5c8313b260.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Env_Samurai_Tree_01_Snow.obj"
+dest_files=["res://.godot/imported/SM_Env_Samurai_Tree_01_Snow.obj-f89d1f531da06531c5241a5c8313b260.mesh", "res://.godot/imported/SM_Env_Samurai_Tree_01_Snow.obj-f89d1f531da06531c5241a5c8313b260.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

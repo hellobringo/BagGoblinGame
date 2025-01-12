@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bbncgr1r7jdos"
+path="res://.godot/imported/SM_Tile_Cube_Hill_04.obj-549fea737a714bcf5af4a85cd2099365.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Tile_Cube_Hill_04.obj-549fea737a714bcf5af4a85cd2099365.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Tile_Cube_Hill_04.obj"
+dest_files=["res://.godot/imported/SM_Tile_Cube_Hill_04.obj-549fea737a714bcf5af4a85cd2099365.mesh", "res://.godot/imported/SM_Tile_Cube_Hill_04.obj-549fea737a714bcf5af4a85cd2099365.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

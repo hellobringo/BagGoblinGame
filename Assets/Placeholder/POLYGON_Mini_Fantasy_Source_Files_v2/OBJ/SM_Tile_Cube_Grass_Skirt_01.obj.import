@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://j3amf30hj6ky"
+path="res://.godot/imported/SM_Tile_Cube_Grass_Skirt_01.obj-073b2637a5598ec771dfc0737a8ed07f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Tile_Cube_Grass_Skirt_01.obj-073b2637a5598ec771dfc0737a8ed07f.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Tile_Cube_Grass_Skirt_01.obj"
+dest_files=["res://.godot/imported/SM_Tile_Cube_Grass_Skirt_01.obj-073b2637a5598ec771dfc0737a8ed07f.mesh", "res://.godot/imported/SM_Tile_Cube_Grass_Skirt_01.obj-073b2637a5598ec771dfc0737a8ed07f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

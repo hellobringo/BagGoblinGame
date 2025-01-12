@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4nvk1nnbqi7t"
+path="res://.godot/imported/SM_Wep_Medusa_01.obj-b21e5819d8ceed05b27824c77656ddef.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Wep_Medusa_01.obj-b21e5819d8ceed05b27824c77656ddef.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Fantasy_Rivals_SourceFiles_v3/OBJ/SM_Wep_Medusa_01.obj"
+dest_files=["res://.godot/imported/SM_Wep_Medusa_01.obj-b21e5819d8ceed05b27824c77656ddef.mesh", "res://.godot/imported/SM_Wep_Medusa_01.obj-b21e5819d8ceed05b27824c77656ddef.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

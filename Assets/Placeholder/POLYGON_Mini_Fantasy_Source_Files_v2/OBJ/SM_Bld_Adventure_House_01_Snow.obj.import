@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ix3qbnji2d3t"
+path="res://.godot/imported/SM_Bld_Adventure_House_01_Snow.obj-1913d114a0502e6fcba93ae6e07c283f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Bld_Adventure_House_01_Snow.obj-1913d114a0502e6fcba93ae6e07c283f.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Bld_Adventure_House_01_Snow.obj"
+dest_files=["res://.godot/imported/SM_Bld_Adventure_House_01_Snow.obj-1913d114a0502e6fcba93ae6e07c283f.mesh", "res://.godot/imported/SM_Bld_Adventure_House_01_Snow.obj-1913d114a0502e6fcba93ae6e07c283f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

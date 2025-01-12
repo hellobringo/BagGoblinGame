@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cf5y67vp6vhow"
+path="res://.godot/imported/SM_Prop_Western_Fence_01.obj-e2b9e4b7c6abd2201402c53c546e3d1f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Prop_Western_Fence_01.obj-e2b9e4b7c6abd2201402c53c546e3d1f.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Prop_Western_Fence_01.obj"
+dest_files=["res://.godot/imported/SM_Prop_Western_Fence_01.obj-e2b9e4b7c6abd2201402c53c546e3d1f.mesh", "res://.godot/imported/SM_Prop_Western_Fence_01.obj-e2b9e4b7c6abd2201402c53c546e3d1f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

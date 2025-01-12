@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dubqq4ovg5bn7"
+path="res://.godot/imported/SM_Prop_Broom_01.obj-8877ac53dc1219081f3eec30bd20b087.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Prop_Broom_01.obj-8877ac53dc1219081f3eec30bd20b087.mesh"]
+
+source_file="res://Assets/Placeholder/Polygon_Fantasy_Characters_Source_Files_v2/OBJ/SM_Prop_Broom_01.obj"
+dest_files=["res://.godot/imported/SM_Prop_Broom_01.obj-8877ac53dc1219081f3eec30bd20b087.mesh", "res://.godot/imported/SM_Prop_Broom_01.obj-8877ac53dc1219081f3eec30bd20b087.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

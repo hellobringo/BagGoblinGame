@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bjk5m0p6sfipc"
+path="res://.godot/imported/SM_Bld_Adventure_Tower_01.obj-2d7deb4c48ab8f85661f78494dbe6396.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Bld_Adventure_Tower_01.obj-2d7deb4c48ab8f85661f78494dbe6396.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Bld_Adventure_Tower_01.obj"
+dest_files=["res://.godot/imported/SM_Bld_Adventure_Tower_01.obj-2d7deb4c48ab8f85661f78494dbe6396.mesh", "res://.godot/imported/SM_Bld_Adventure_Tower_01.obj-2d7deb4c48ab8f85661f78494dbe6396.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

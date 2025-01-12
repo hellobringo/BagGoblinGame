@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d31i43116mgiy"
+path="res://.godot/imported/SM_Base_Mechanical_01.obj-e62142952c6bd15c39e63c4efedb8781.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Base_Mechanical_01.obj-e62142952c6bd15c39e63c4efedb8781.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Fantasy_Rivals_SourceFiles_v3/OBJ/SM_Base_Mechanical_01.obj"
+dest_files=["res://.godot/imported/SM_Base_Mechanical_01.obj-e62142952c6bd15c39e63c4efedb8781.mesh", "res://.godot/imported/SM_Base_Mechanical_01.obj-e62142952c6bd15c39e63c4efedb8781.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

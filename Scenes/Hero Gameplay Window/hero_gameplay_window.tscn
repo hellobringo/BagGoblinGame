@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://78sqpbeawjpd"]
+
+[ext_resource type="Texture2D" uid="uid://dcra6hq2vv16f" path="res://Assets/Placeholder/seamless_dirt_ground_texture_by_hhh316-d4fon0w.jpg" id="1_qxqr3"]
+[ext_resource type="Texture2D" uid="uid://ssicob4e7jqk" path="res://Assets/Placeholder/Polygon_Fantasy_Characters_Source_Files_v2/Textures/Polygon_Fantasy_Characters_Texture_01_A.png" id="1_th2b0"]
+
+[node name="Hero Gameplay Window" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+scale = Vector2(-82717.9, 966567)
+
+[node name="Background" type="TextureRect" parent="."]
+offset_left = -577.0
+offset_top = -325.0
+offset_right = 35660.8
+offset_bottom = 20073.4
+scale = Vector2(0.0318764, 0.0318764)
+texture = ExtResource("1_qxqr3")
+stretch_mode = 1
+
+[node name="Hero" type="Node2D" parent="."]
+position = Vector2(0, 7)
+
+[node name="Sprite2D" type="Sprite2D" parent="Hero"]
+position = Vector2(0, -38)
+scale = Vector2(0.0361454, 0.0722908)
+texture = ExtResource("1_th2b0")

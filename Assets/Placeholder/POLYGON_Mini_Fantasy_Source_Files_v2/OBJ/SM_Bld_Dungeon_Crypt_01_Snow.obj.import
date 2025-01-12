@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cwp5c7whxalto"
+path="res://.godot/imported/SM_Bld_Dungeon_Crypt_01_Snow.obj-913d7f0d41e547bca16d155717faa292.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Bld_Dungeon_Crypt_01_Snow.obj-913d7f0d41e547bca16d155717faa292.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Bld_Dungeon_Crypt_01_Snow.obj"
+dest_files=["res://.godot/imported/SM_Bld_Dungeon_Crypt_01_Snow.obj-913d7f0d41e547bca16d155717faa292.mesh", "res://.godot/imported/SM_Bld_Dungeon_Crypt_01_Snow.obj-913d7f0d41e547bca16d155717faa292.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

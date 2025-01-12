@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://mtr5pn0ni4kl"
+path="res://.godot/imported/SM_Prop_TreasureChest_Open_02_Snow.obj-22f3043f7f327779fa69c0a8969e320a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Prop_TreasureChest_Open_02_Snow.obj-22f3043f7f327779fa69c0a8969e320a.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Prop_TreasureChest_Open_02_Snow.obj"
+dest_files=["res://.godot/imported/SM_Prop_TreasureChest_Open_02_Snow.obj-22f3043f7f327779fa69c0a8969e320a.mesh", "res://.godot/imported/SM_Prop_TreasureChest_Open_02_Snow.obj-22f3043f7f327779fa69c0a8969e320a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

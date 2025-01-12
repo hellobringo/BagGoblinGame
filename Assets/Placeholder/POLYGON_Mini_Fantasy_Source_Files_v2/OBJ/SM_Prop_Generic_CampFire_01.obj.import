@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://fa25w7e7e8xa"
+path="res://.godot/imported/SM_Prop_Generic_CampFire_01.obj-98be3a71a969256e43a28e7fea766949.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Prop_Generic_CampFire_01.obj-98be3a71a969256e43a28e7fea766949.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Prop_Generic_CampFire_01.obj"
+dest_files=["res://.godot/imported/SM_Prop_Generic_CampFire_01.obj-98be3a71a969256e43a28e7fea766949.mesh", "res://.godot/imported/SM_Prop_Generic_CampFire_01.obj-98be3a71a969256e43a28e7fea766949.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

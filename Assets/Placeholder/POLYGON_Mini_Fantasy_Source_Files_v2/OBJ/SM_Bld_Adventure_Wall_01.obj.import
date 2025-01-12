@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b2am7t455ga8q"
+path="res://.godot/imported/SM_Bld_Adventure_Wall_01.obj-327547750382517a22f89baeb20b1081.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Bld_Adventure_Wall_01.obj-327547750382517a22f89baeb20b1081.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Bld_Adventure_Wall_01.obj"
+dest_files=["res://.godot/imported/SM_Bld_Adventure_Wall_01.obj-327547750382517a22f89baeb20b1081.mesh", "res://.godot/imported/SM_Bld_Adventure_Wall_01.obj-327547750382517a22f89baeb20b1081.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cyb2uhxv3fwkv"
+path="res://.godot/imported/SM_UI_Coin_02.obj-e10e7ba54bb0ba8c7cc2e8a25d3d93af.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_UI_Coin_02.obj-e10e7ba54bb0ba8c7cc2e8a25d3d93af.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_UI_Coin_02.obj"
+dest_files=["res://.godot/imported/SM_UI_Coin_02.obj-e10e7ba54bb0ba8c7cc2e8a25d3d93af.mesh", "res://.godot/imported/SM_UI_Coin_02.obj-e10e7ba54bb0ba8c7cc2e8a25d3d93af.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

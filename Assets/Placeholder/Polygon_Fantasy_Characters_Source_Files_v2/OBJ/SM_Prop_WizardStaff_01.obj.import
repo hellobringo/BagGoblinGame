@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cdxjgcuhsrkjf"
+path="res://.godot/imported/SM_Prop_WizardStaff_01.obj-fa33ebc02385b3cf88aff7b11105e891.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Prop_WizardStaff_01.obj-fa33ebc02385b3cf88aff7b11105e891.mesh"]
+
+source_file="res://Assets/Placeholder/Polygon_Fantasy_Characters_Source_Files_v2/OBJ/SM_Prop_WizardStaff_01.obj"
+dest_files=["res://.godot/imported/SM_Prop_WizardStaff_01.obj-fa33ebc02385b3cf88aff7b11105e891.mesh", "res://.godot/imported/SM_Prop_WizardStaff_01.obj-fa33ebc02385b3cf88aff7b11105e891.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

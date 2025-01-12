@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://by2fq8wpjdch0"
+path="res://.godot/imported/SM_Env_Generic_Bush_04_Snow.obj-e47755d833b7a0373712aef8ca669a95.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Env_Generic_Bush_04_Snow.obj-e47755d833b7a0373712aef8ca669a95.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Env_Generic_Bush_04_Snow.obj"
+dest_files=["res://.godot/imported/SM_Env_Generic_Bush_04_Snow.obj-e47755d833b7a0373712aef8ca669a95.mesh", "res://.godot/imported/SM_Env_Generic_Bush_04_Snow.obj-e47755d833b7a0373712aef8ca669a95.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

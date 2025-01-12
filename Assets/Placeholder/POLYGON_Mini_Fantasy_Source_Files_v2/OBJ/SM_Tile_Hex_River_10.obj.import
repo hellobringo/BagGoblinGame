@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c0cyotjf2jdif"
+path="res://.godot/imported/SM_Tile_Hex_River_10.obj-080dd1c0c52c2a268b55534f99fc42ca.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Tile_Hex_River_10.obj-080dd1c0c52c2a268b55534f99fc42ca.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Tile_Hex_River_10.obj"
+dest_files=["res://.godot/imported/SM_Tile_Hex_River_10.obj-080dd1c0c52c2a268b55534f99fc42ca.mesh", "res://.godot/imported/SM_Tile_Hex_River_10.obj-080dd1c0c52c2a268b55534f99fc42ca.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

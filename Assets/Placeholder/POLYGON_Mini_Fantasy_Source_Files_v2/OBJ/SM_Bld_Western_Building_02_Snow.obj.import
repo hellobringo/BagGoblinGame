@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://2q4il5oyukmw"
+path="res://.godot/imported/SM_Bld_Western_Building_02_Snow.obj-d1632eb5d4d97c6c6ed08a3a3eb93be0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Bld_Western_Building_02_Snow.obj-d1632eb5d4d97c6c6ed08a3a3eb93be0.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Bld_Western_Building_02_Snow.obj"
+dest_files=["res://.godot/imported/SM_Bld_Western_Building_02_Snow.obj-d1632eb5d4d97c6c6ed08a3a3eb93be0.mesh", "res://.godot/imported/SM_Bld_Western_Building_02_Snow.obj-d1632eb5d4d97c6c6ed08a3a3eb93be0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

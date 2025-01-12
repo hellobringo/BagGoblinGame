@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://48hdo1d7sknv"
+path="res://.godot/imported/SM_Wep_Troll_01.obj-491ef2765d8b5fa4aa0a53eee32df315.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Wep_Troll_01.obj-491ef2765d8b5fa4aa0a53eee32df315.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Fantasy_Rivals_SourceFiles_v3/OBJ/SM_Wep_Troll_01.obj"
+dest_files=["res://.godot/imported/SM_Wep_Troll_01.obj-491ef2765d8b5fa4aa0a53eee32df315.mesh", "res://.godot/imported/SM_Wep_Troll_01.obj-491ef2765d8b5fa4aa0a53eee32df315.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

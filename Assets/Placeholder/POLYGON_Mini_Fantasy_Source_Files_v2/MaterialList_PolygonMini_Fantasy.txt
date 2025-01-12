@@ -1,0 +1,1905 @@
+-------------------
+Folder Name: Backgrounds
+-------------------
+Prefab Name: SM_Background_Desert_01
+    Mesh Name: SM_Background_Desert_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Background_Desert_02
+    Mesh Name: SM_Background_Desert_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Background_Desert_03
+    Mesh Name: SM_Background_Desert_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Background_Ice_01
+    Mesh Name: SM_Background_Ice_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Background_Ice_02
+    Mesh Name: SM_Background_Ice_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Background_Ice_03
+    Mesh Name: SM_Background_Ice_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Background_Mountains_01
+    Mesh Name: SM_Background_Mountains_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Background_Mountains_02
+    Mesh Name: SM_Background_Mountains_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Background_Mountains_03
+    Mesh Name: SM_Background_Mountains_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Background_Volcanic_01
+    Mesh Name: SM_Background_Volcanic_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Background_Volcanic_02
+    Mesh Name: SM_Background_Volcanic_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Background_Volcanic_03
+    Mesh Name: SM_Background_Volcanic_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+-------------------
+Folder Name: Buildings
+-------------------
+Prefab Name: SM_Bld_Adventure_House_01
+    Mesh Name: SM_Bld_Adventure_House_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Adventure_House_02
+    Mesh Name: SM_Bld_Adventure_House_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Adventure_Hut_01
+    Mesh Name: SM_Bld_Adventure_Hut_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Adventure_Tower_01
+    Mesh Name: SM_Bld_Adventure_Tower_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Adventure_Wall_01
+    Mesh Name: SM_Bld_Adventure_Wall_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Dungeon_Crypt_01
+    Mesh Name: SM_Bld_Dungeon_Crypt_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_01
+    Mesh Name: SM_Bld_Knights_Castle_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_02
+    Mesh Name: SM_Bld_Knights_Castle_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_03
+    Mesh Name: SM_Bld_Knights_Castle_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_04
+    Mesh Name: SM_Bld_Knights_Castle_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_05
+    Mesh Name: SM_Bld_Knights_Castle_05
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_06
+    Mesh Name: SM_Bld_Knights_Castle_06
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_07
+    Mesh Name: SM_Bld_Knights_Castle_07
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_Flag_01
+    Mesh Name: SM_Bld_Knights_Castle_Flag_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_Flag_02
+    Mesh Name: SM_Bld_Knights_Castle_Flag_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Church_01
+    Mesh Name: SM_Bld_Knights_Church_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_House_01
+    Mesh Name: SM_Bld_Knights_House_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_House_02
+    Mesh Name: SM_Bld_Knights_House_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_House_03
+    Mesh Name: SM_Bld_Knights_House_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_House_04
+    Mesh Name: SM_Bld_Knights_House_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Tent_01
+    Mesh Name: SM_Bld_Knights_Tent_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Tent_02
+    Mesh Name: SM_Bld_Knights_Tent_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirates_Fountain_01
+    Mesh Name: SM_Bld_Pirates_Fountain_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirates_House_01
+    Mesh Name: SM_Bld_Pirates_House_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirates_House_02
+    Mesh Name: SM_Bld_Pirates_House_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirates_House_03
+    Mesh Name: SM_Bld_Pirates_House_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Fort_01
+    Mesh Name: SM_Bld_Pirate_Fort_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Fort_02
+    Mesh Name: SM_Bld_Pirate_Fort_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Fort_03
+    Mesh Name: SM_Bld_Pirate_Fort_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Fort_04
+    Mesh Name: SM_Bld_Pirate_Fort_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Mansion_01
+    Mesh Name: SM_Bld_Pirate_Mansion_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Shack_01
+    Mesh Name: SM_Bld_Pirate_Shack_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Shack_02
+    Mesh Name: SM_Bld_Pirate_Shack_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Tower_01
+    Mesh Name: SM_Bld_Pirate_Tower_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Samurai_Arch_01
+    Mesh Name: SM_Bld_Samurai_Arch_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Samurai_House_01
+    Mesh Name: SM_Bld_Samurai_House_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Samurai_House_02
+    Mesh Name: SM_Bld_Samurai_House_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Samurai_Temple_01
+    Mesh Name: SM_Bld_Samurai_Temple_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Samurai_Temple_02
+    Mesh Name: SM_Bld_Samurai_Temple_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_Dock_01
+    Mesh Name: SM_Bld_Viking_Dock_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_Dock_02
+    Mesh Name: SM_Bld_Viking_Dock_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_House_01
+    Mesh Name: SM_Bld_Viking_House_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_House_02
+    Mesh Name: SM_Bld_Viking_House_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_House_03
+    Mesh Name: SM_Bld_Viking_House_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_Hut_01
+    Mesh Name: SM_Bld_Viking_Hut_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_Hut_02
+    Mesh Name: SM_Bld_Viking_Hut_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_Tower_01
+    Mesh Name: SM_Bld_Viking_Tower_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Western_Building_01
+    Mesh Name: SM_Bld_Western_Building_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Western_Building_02
+    Mesh Name: SM_Bld_Western_Building_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Western_Church_01
+    Mesh Name: SM_Bld_Western_Church_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Western_Water_Tower_01
+    Mesh Name: SM_Bld_Western_Water_Tower_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Western_Windmill_01
+    Mesh Name: SM_Bld_Western_Windmill_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+    Mesh Name: SM_Bld_Western_Windmill_Top_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+    Mesh Name: SM_Bld_Western_Windmill_Blades_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+-------------------
+Folder Name: Environments
+-------------------
+Prefab Name: SM_Env_Dirt_Pile_01
+    Mesh Name: SM_Env_Dirt_Pile_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dirt_Pile_02
+    Mesh Name: SM_Env_Dirt_Pile_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dirt_Pile_03
+    Mesh Name: SM_Env_Dirt_Pile_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dirt_Pile_04
+    Mesh Name: SM_Env_Dirt_Pile_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Bones_01
+    Mesh Name: SM_Env_Dungeon_Bones_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Crystal_01
+    Mesh Name: SM_Env_Dungeon_Crystal_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Crystal_02
+    Mesh Name: SM_Env_Dungeon_Crystal_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Mushroom_01
+    Mesh Name: SM_Env_Dungeon_Mushroom_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Mushroom_02
+    Mesh Name: SM_Env_Dungeon_Mushroom_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Rocks_01
+    Mesh Name: SM_Env_Dungeon_Rocks_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Rocks_02
+    Mesh Name: SM_Env_Dungeon_Rocks_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Skull_01
+    Mesh Name: SM_Env_Dungeon_Skull_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Barrel_01
+    Mesh Name: SM_Env_Generic_Barrel_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Bush_01
+    Mesh Name: SM_Env_Generic_Bush_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Bush_02
+    Mesh Name: SM_Env_Generic_Bush_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Bush_03
+    Mesh Name: SM_Env_Generic_Bush_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Bush_04
+    Mesh Name: SM_Env_Generic_Bush_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cliffs_01
+    Mesh Name: SM_Env_Generic_Cliffs_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cliffs_02
+    Mesh Name: SM_Env_Generic_Cliffs_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cliffs_03
+    Mesh Name: SM_Env_Generic_Cliffs_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cliffs_04
+    Mesh Name: SM_Env_Generic_Cliffs_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cliffs_05
+    Mesh Name: SM_Env_Generic_Cliffs_05
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cloud_01
+    Mesh Name: SM_Env_Generic_Cloud_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cloud_02
+    Mesh Name: SM_Env_Generic_Cloud_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cloud_03
+    Mesh Name: SM_Env_Generic_Cloud_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cloud_04
+    Mesh Name: SM_Env_Generic_Cloud_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cloud_05
+    Mesh Name: SM_Env_Generic_Cloud_05
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cloud_06
+    Mesh Name: SM_Env_Generic_Cloud_06
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cloud_07
+    Mesh Name: SM_Env_Generic_Cloud_07
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Dead_Tree_01
+    Mesh Name: SM_Env_Generic_Dead_Tree_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Grass_Blob_01
+    Mesh Name: SM_Env_Generic_Grass_Blob_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Grass_Blob_02
+    Mesh Name: SM_Env_Generic_Grass_Blob_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_River_Stone_01
+    Mesh Name: SM_Env_Generic_River_Stone_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_River_Stone_02
+    Mesh Name: SM_Env_Generic_River_Stone_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_01
+    Mesh Name: SM_Env_Generic_Rock_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_02
+    Mesh Name: SM_Env_Generic_Rock_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_03
+    Mesh Name: SM_Env_Generic_Rock_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_04
+    Mesh Name: SM_Env_Generic_Rock_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_05
+    Mesh Name: SM_Env_Generic_Rock_05
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_06
+    Mesh Name: SM_Env_Generic_Rock_06
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_07
+    Mesh Name: SM_Env_Generic_Rock_07
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_08
+    Mesh Name: SM_Env_Generic_Rock_08
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Treestump_01
+    Mesh Name: SM_Env_Generic_Treestump_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_01
+    Mesh Name: SM_Env_Generic_Tree_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_010
+    Mesh Name: SM_Env_Generic_Tree_010
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_011
+    Mesh Name: SM_Env_Generic_Tree_011
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_02
+    Mesh Name: SM_Env_Generic_Tree_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_03
+    Mesh Name: SM_Env_Generic_Tree_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_04
+    Mesh Name: SM_Env_Generic_Tree_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_05
+    Mesh Name: SM_Env_Generic_Tree_05
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_06
+    Mesh Name: SM_Env_Generic_Tree_06
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_07
+    Mesh Name: SM_Env_Generic_Tree_07
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_08
+    Mesh Name: SM_Env_Generic_Tree_08
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_09
+    Mesh Name: SM_Env_Generic_Tree_09
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_Birch_01
+    Mesh Name: SM_Env_Generic_Tree_Birch_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Grass_01
+    Mesh Name: SM_Env_Grass_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Lilly_01
+    Mesh Name: SM_Env_Lilly_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Lilly_02
+    Mesh Name: SM_Env_Lilly_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Pirate_Palm_01
+    Mesh Name: SM_Env_Pirate_Palm_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Pirate_Palm_02
+    Mesh Name: SM_Env_Pirate_Palm_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Pirate_Palm_03
+    Mesh Name: SM_Env_Pirate_Palm_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Pirate_SkullRock_01
+    Mesh Name: SM_Env_Pirate_SkullRock_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Reed_01
+    Mesh Name: SM_Env_Reed_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Samurai_Bamboo_01
+    Mesh Name: SM_Env_Samurai_Bamboo_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Samurai_Crops_01
+    Mesh Name: SM_Env_Samurai_Crops_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Samurai_Mountain_01
+    Mesh Name: SM_Env_Samurai_Mountain_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Samurai_Tree_01
+    Mesh Name: SM_Env_Samurai_Tree_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Viking_Iceberg_01
+    Mesh Name: SM_Env_Viking_Iceberg_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Viking_Iceberg_02
+    Mesh Name: SM_Env_Viking_Iceberg_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Viking_Iceberg_03
+    Mesh Name: SM_Env_Viking_Iceberg_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Butte_01
+    Mesh Name: SM_Env_Western_Butte_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Butte_02
+    Mesh Name: SM_Env_Western_Butte_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Butte_03
+    Mesh Name: SM_Env_Western_Butte_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Cactus_01
+    Mesh Name: SM_Env_Western_Cactus_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Cactus_02
+    Mesh Name: SM_Env_Western_Cactus_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Cactus_03
+    Mesh Name: SM_Env_Western_Cactus_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Rock_01
+    Mesh Name: SM_Env_Western_Rock_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Rock_02
+    Mesh Name: SM_Env_Western_Rock_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+-------------------
+Folder Name: FX
+-------------------
+Prefab Name: FX_Ash_Falling_01
+    Mesh Name: FX_Ash_Falling_01
+        Slot: FX_Blank_Dark (Uses custom shader)
+        Slot: FX_Blank_Dark (Uses custom shader)
+
+Prefab Name: FX_Blossom_01
+    Mesh Name: FX_Blossom_01
+        Slot: FX_Blossom (No Albedo Texture)
+        Slot: FX_Blossom (No Albedo Texture)
+
+Prefab Name: FX_Fire_01
+    Mesh Name: FX_Fire_01
+        Slot: FX_Blank_Light (Uses custom shader)
+
+Prefab Name: FX_Fire_02
+    Mesh Name: FX_Fire_02
+        Slot: FX_Blank_Light (Uses custom shader)
+
+Prefab Name: FX_Lava_Bubbles
+    Mesh Name: FX_Lava_Bubbles
+        Slot: FX_Blank_Light (Uses custom shader)
+        Slot: FX_Blank_Light (Uses custom shader)
+    Mesh Name: FX_Lava_Splatter
+        Slot: FX_Blank_Light (Uses custom shader)
+
+Prefab Name: FX_Smoke_01
+    Mesh Name: FX_Smoke_01
+        Slot: FX_Blank_Dark (Uses custom shader)
+        Slot: FX_Blank_Dark (Uses custom shader)
+
+Prefab Name: FX_Snow_Falling_01
+    Mesh Name: FX_Snow_Falling_01
+        Slot: FX_Blank_Light (Uses custom shader)
+        Slot: FX_Blank_Light (Uses custom shader)
+
+Prefab Name: FX_Spawn_Puff_01
+    Mesh Name: FX_Spawn_Puff_01
+        Slot: FX_Poof (No Albedo Texture)
+
+Prefab Name: FX_WaterFall_01
+    Mesh Name: FX_WaterFall_01
+        Slot: FX_Blank_Light (Uses custom shader)
+        Slot: FX_Blank_Light (Uses custom shader)
+    Mesh Name: FX_Waterfall_Stream_01
+        Slot: FX_Blank_Light (Uses custom shader)
+        Slot: FX_Blank_Light (Uses custom shader)
+
+Prefab Name: FX_Waves_01
+    Mesh Name: FX_Waves_01
+        Slot: FX_Ring (Uses custom shader)
+        Slot: FX_Ring (Uses custom shader)
+    Mesh Name: FX_Waves_Semi_01
+        Slot: FX_Ring_Semi (Uses custom shader)
+        Slot: FX_Ring (Uses custom shader)
+
+Prefab Name: FX_Waves_Large_01
+    Mesh Name: FX_Waves_Large_01
+        Slot: FX_Ring (Uses custom shader)
+        Slot: FX_Ring (Uses custom shader)
+    Mesh Name: FX_Waves_Semi_Large_01
+        Slot: FX_Ring_Semi (Uses custom shader)
+        Slot: FX_Ring (Uses custom shader)
+
+Prefab Name: FX_Waves_Small_01
+    Mesh Name: FX_Waves_Small_01
+        Slot: FX_Ring (Uses custom shader)
+        Slot: FX_Ring (Uses custom shader)
+    Mesh Name: FX_Waves_Semi_Small_01
+        Slot: FX_Ring_Semi (Uses custom shader)
+        Slot: FX_Ring (Uses custom shader)
+
+-------------------
+Folder Name: Props
+-------------------
+Prefab Name: SM_Bld_Knights_Flag_04
+    Mesh Name: SM_Bld_Knights_Flag_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Adventure_Cover_01
+    Mesh Name: SM_Prop_Adventure_Cover_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Adventure_Well_01
+    Mesh Name: SM_Prop_Adventure_Well_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Generic_Bone_01
+    Mesh Name: SM_Prop_Generic_Bone_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Generic_Bridge_01
+    Mesh Name: SM_Prop_Generic_Bridge_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Generic_Bridge_02
+    Mesh Name: SM_Prop_Generic_Bridge_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Generic_CampFire_01
+    Mesh Name: SM_Prop_Generic_CampFire_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Generic_Crate_01
+    Mesh Name: SM_Prop_Generic_Crate_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Generic_Skull_02
+    Mesh Name: SM_Prop_Generic_Skull_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Knights_Wagon_01
+    Mesh Name: SM_Prop_Knights_Wagon_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Pirates_Ladder_01
+    Mesh Name: SM_Prop_Pirates_Ladder_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Pirate_Boat_01
+    Mesh Name: SM_Prop_Pirate_Boat_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Pirate_Boat_02
+    Mesh Name: SM_Prop_Pirate_Boat_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Pirate_Cannon_01
+    Mesh Name: SM_Prop_Pirate_Cannon_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Samurai_Fence_01
+    Mesh Name: SM_Prop_Samurai_Fence_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Samurai_Gong_01
+    Mesh Name: SM_Prop_Samurai_Gong_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Samurai_Shrine_01
+    Mesh Name: SM_Prop_Samurai_Shrine_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Samurai_Shrine_02
+    Mesh Name: SM_Prop_Samurai_Shrine_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Stairs_Stone_01
+    Mesh Name: SM_Prop_Stairs_Stone_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Stairs_Stone_02
+    Mesh Name: SM_Prop_Stairs_Stone_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Stairs_Stone_03
+    Mesh Name: SM_Prop_Stairs_Stone_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Stairs_Wood_01
+    Mesh Name: SM_Prop_Stairs_Wood_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Stairs_Wood_02
+    Mesh Name: SM_Prop_Stairs_Wood_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Stairs_Wood_03
+    Mesh Name: SM_Prop_Stairs_Wood_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_TreasureChest_Closed_01
+    Mesh Name: SM_Prop_TreasureChest_Closed_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_TreasureChest_Closed_02
+    Mesh Name: SM_Prop_TreasureChest_Closed_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_TreasureChest_Open_01
+    Mesh Name: SM_Prop_TreasureChest_Open_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_TreasureChest_Open_02
+    Mesh Name: SM_Prop_TreasureChest_Open_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Viking_Boat_01
+    Mesh Name: SM_Prop_Viking_Boat_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Viking_Fence_01
+    Mesh Name: SM_Prop_Viking_Fence_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Viking_Sheild_01
+    Mesh Name: SM_Prop_Viking_Sheild_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Viking_Sheild_02
+    Mesh Name: SM_Prop_Viking_Sheild_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Viking_Sheild_03
+    Mesh Name: SM_Prop_Viking_Sheild_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Viking_Sheild_04
+    Mesh Name: SM_Prop_Viking_Sheild_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Western_Fence_01
+    Mesh Name: SM_Prop_Western_Fence_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Western_Town_Arch_01
+    Mesh Name: SM_Prop_Western_Town_Arch_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+-------------------
+Folder Name: Snow
+-------------------
+Prefab Name: SM_Bld_Adventure_House_01_Snow
+    Mesh Name: SM_Bld_Adventure_House_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Adventure_House_02_Snow
+    Mesh Name: SM_Bld_Adventure_House_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Adventure_Hut_01_Snow
+    Mesh Name: SM_Bld_Adventure_Hut_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Adventure_Tower_01_Snow
+    Mesh Name: SM_Bld_Adventure_Tower_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Adventure_Wall_01_Snow
+    Mesh Name: SM_Bld_Adventure_Wall_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Dungeon_Crypt_01_Snow
+    Mesh Name: SM_Bld_Dungeon_Crypt_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_01_Snow
+    Mesh Name: SM_Bld_Knights_Castle_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_02_Snow
+    Mesh Name: SM_Bld_Knights_Castle_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_03_Snow
+    Mesh Name: SM_Bld_Knights_Castle_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_04_Snow
+    Mesh Name: SM_Bld_Knights_Castle_04_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_05_Snow
+    Mesh Name: SM_Bld_Knights_Castle_05_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_06_Snow
+    Mesh Name: SM_Bld_Knights_Castle_06_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_07_Snow
+    Mesh Name: SM_Bld_Knights_Castle_07_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_Flag_01_Snow
+    Mesh Name: SM_Bld_Knights_Castle_Flag_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Castle_Flag_02_Snow
+    Mesh Name: SM_Bld_Knights_Castle_Flag_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Church_01_Snow
+    Mesh Name: SM_Bld_Knights_Church_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Flag_04_Snow
+    Mesh Name: SM_Bld_Knights_Flag_04_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_House_01_Snow
+    Mesh Name: SM_Bld_Knights_House_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_House_02_Snow
+    Mesh Name: SM_Bld_Knights_House_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_House_03_Snow
+    Mesh Name: SM_Bld_Knights_House_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_House_04_Snow
+    Mesh Name: SM_Bld_Knights_House_04_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Tent_01_Snow
+    Mesh Name: SM_Bld_Knights_Tent_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Knights_Tent_02_Snow
+    Mesh Name: SM_Bld_Knights_Tent_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirates_Fountain_01_Snow
+    Mesh Name: SM_Bld_Pirates_Fountain_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirates_House_01_Snow
+    Mesh Name: SM_Bld_Pirates_House_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirates_House_02_Snow
+    Mesh Name: SM_Bld_Pirates_House_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirates_House_03_Snow
+    Mesh Name: SM_Bld_Pirates_House_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Fort_01_Snow
+    Mesh Name: SM_Bld_Pirate_Fort_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Fort_02_Snow
+    Mesh Name: SM_Bld_Pirate_Fort_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Fort_03_Snow
+    Mesh Name: SM_Bld_Pirate_Fort_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Fort_04_Snow
+    Mesh Name: SM_Bld_Pirate_Fort_04_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Mansion_01_Snow
+    Mesh Name: SM_Bld_Pirate_Mansion_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Shack_01_Snow
+    Mesh Name: SM_Bld_Pirate_Shack_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Shack_02_Snow
+    Mesh Name: SM_Bld_Pirate_Shack_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Pirate_Tower_01_Snow
+    Mesh Name: SM_Bld_Pirate_Tower_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Samurai_Arch_01_Snow
+    Mesh Name: SM_Bld_Samurai_Arch_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Samurai_House_01_Snow
+    Mesh Name: SM_Bld_Samurai_House_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Samurai_House_02_Snow
+    Mesh Name: SM_Bld_Samurai_House_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Samurai_Temple_01_Snow
+    Mesh Name: SM_Bld_Samurai_Temple_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Samurai_Temple_02_Snow
+    Mesh Name: SM_Bld_Samurai_Temple_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_Dock_01_Snow
+    Mesh Name: SM_Bld_Viking_Dock_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_Dock_02_Snow
+    Mesh Name: SM_Bld_Viking_Dock_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_House_01_Snow
+    Mesh Name: SM_Bld_Viking_House_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_House_02_Snow
+    Mesh Name: SM_Bld_Viking_House_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_House_03_Snow
+    Mesh Name: SM_Bld_Viking_House_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_Hut_01_Snow
+    Mesh Name: SM_Bld_Viking_Hut_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_Hut_02_Snow
+    Mesh Name: SM_Bld_Viking_Hut_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Viking_Tower_01_Snow
+    Mesh Name: SM_Bld_Viking_Tower_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Western_Building_01_Snow
+    Mesh Name: SM_Bld_Western_Building_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Western_Building_02_Snow
+    Mesh Name: SM_Bld_Western_Building_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Western_Church_01_Snow
+    Mesh Name: SM_Bld_Western_Church_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Western_Water_Tower_01_Snow
+    Mesh Name: SM_Bld_Western_Water_Tower_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Bld_Western_Windmill_01_Snow
+    Mesh Name: SM_Bld_Western_Windmill_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+    Mesh Name: SM_Bld_Western_Windmill_Top_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+    Mesh Name: SM_Bld_Western_Windmill_Blades_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Bones_01_Snow
+    Mesh Name: SM_Env_Dungeon_Bones_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Crystal_01_Snow
+    Mesh Name: SM_Env_Dungeon_Crystal_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Crystal_02_Snow
+    Mesh Name: SM_Env_Dungeon_Crystal_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Mushroom_01_Snow
+    Mesh Name: SM_Env_Dungeon_Mushroom_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Mushroom_02_Snow
+    Mesh Name: SM_Env_Dungeon_Mushroom_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Rocks_01_Snow
+    Mesh Name: SM_Env_Dungeon_Rocks_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Rocks_02_Snow
+    Mesh Name: SM_Env_Dungeon_Rocks_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Dungeon_Skull_01_Snow
+    Mesh Name: SM_Env_Dungeon_Skull_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Barrel_01_Snow
+    Mesh Name: SM_Env_Generic_Barrel_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Bush_01_Snow
+    Mesh Name: SM_Env_Generic_Bush_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Bush_02_Snow
+    Mesh Name: SM_Env_Generic_Bush_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Bush_03_Snow
+    Mesh Name: SM_Env_Generic_Bush_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Bush_04_Snow
+    Mesh Name: SM_Env_Generic_Bush_04_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cliffs_01_Snow
+    Mesh Name: SM_Env_Generic_Cliffs_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cliffs_02_Snow
+    Mesh Name: SM_Env_Generic_Cliffs_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cliffs_03_Snow
+    Mesh Name: SM_Env_Generic_Cliffs_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cliffs_04_Snow
+    Mesh Name: SM_Env_Generic_Cliffs_04_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Cliffs_05_Snow
+    Mesh Name: SM_Env_Generic_Cliffs_05_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Dead_Tree_01_Snow
+    Mesh Name: SM_Env_Generic_Dead_Tree_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_River_Stone_01_Snow
+    Mesh Name: SM_Env_Generic_River_Stone_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_River_Stone_02_Snow
+    Mesh Name: SM_Env_Generic_River_Stone_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_01_Snow
+    Mesh Name: SM_Env_Generic_Rock_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_02_Snow
+    Mesh Name: SM_Env_Generic_Rock_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_03_Snow
+    Mesh Name: SM_Env_Generic_Rock_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_04_Snow
+    Mesh Name: SM_Env_Generic_Rock_04_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_05_Snow
+    Mesh Name: SM_Env_Generic_Rock_05_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_06_Snow
+    Mesh Name: SM_Env_Generic_Rock_06_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_07_Snow
+    Mesh Name: SM_Env_Generic_Rock_07_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Rock_08_Snow
+    Mesh Name: SM_Env_Generic_Rock_08_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Treestump_01_Snow
+    Mesh Name: SM_Env_Generic_Treestump_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_010_Snow
+    Mesh Name: SM_Env_Generic_Tree_010_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_011_Snow
+    Mesh Name: SM_Env_Generic_Tree_011_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_01_Snow
+    Mesh Name: SM_Env_Generic_Tree_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_02_Snow
+    Mesh Name: SM_Env_Generic_Tree_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_03_Snow
+    Mesh Name: SM_Env_Generic_Tree_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_04_Snow
+    Mesh Name: SM_Env_Generic_Tree_04_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_05_Snow
+    Mesh Name: SM_Env_Generic_Tree_05_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_06_Snow
+    Mesh Name: SM_Env_Generic_Tree_06_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_07_Snow
+    Mesh Name: SM_Env_Generic_Tree_07_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_08_Snow
+    Mesh Name: SM_Env_Generic_Tree_08_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_09_Snow
+    Mesh Name: SM_Env_Generic_Tree_09_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Generic_Tree_Birch_01_Snow
+    Mesh Name: SM_Env_Generic_Tree_Birch_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Pirate_Palm_01_Snow
+    Mesh Name: SM_Env_Pirate_Palm_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Pirate_Palm_02_Snow
+    Mesh Name: SM_Env_Pirate_Palm_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Pirate_Palm_03_Snow
+    Mesh Name: SM_Env_Pirate_Palm_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Pirate_SkullRock_01_Snow
+    Mesh Name: SM_Env_Pirate_SkullRock_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Samurai_Bamboo_01_Snow
+    Mesh Name: SM_Env_Samurai_Bamboo_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Samurai_Crops_01_Snow
+    Mesh Name: SM_Env_Samurai_Crops_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Samurai_Mountain_01_Snow
+    Mesh Name: SM_Env_Samurai_Mountain_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Samurai_Tree_01_Snow
+    Mesh Name: SM_Env_Samurai_Tree_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Viking_Iceberg_01_Snow
+    Mesh Name: SM_Env_Viking_Iceberg_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Viking_Iceberg_02_Snow
+    Mesh Name: SM_Env_Viking_Iceberg_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Viking_Iceberg_03_Snow
+    Mesh Name: SM_Env_Viking_Iceberg_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Butte_01_Snow
+    Mesh Name: SM_Env_Western_Butte_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Butte_02_Snow
+    Mesh Name: SM_Env_Western_Butte_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Butte_03_Snow
+    Mesh Name: SM_Env_Western_Butte_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Cactus_01_Snow
+    Mesh Name: SM_Env_Western_Cactus_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Cactus_02_Snow
+    Mesh Name: SM_Env_Western_Cactus_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Cactus_03_Snow
+    Mesh Name: SM_Env_Western_Cactus_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Rock_01_Snow
+    Mesh Name: SM_Env_Western_Rock_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Env_Western_Rock_02_Snow
+    Mesh Name: SM_Env_Western_Rock_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Adventure_Cover_01_Snow
+    Mesh Name: SM_Prop_Adventure_Cover_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Adventure_Well_01_Snow
+    Mesh Name: SM_Prop_Adventure_Well_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Generic_Bridge_01_Snow
+    Mesh Name: SM_Prop_Generic_Bridge_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Generic_Bridge_02_Snow
+    Mesh Name: SM_Prop_Generic_Bridge_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Generic_CampFire_01_Snow
+    Mesh Name: SM_Prop_Generic_CampFire_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Generic_Crate_01_Snow
+    Mesh Name: SM_Prop_Generic_Crate_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Knights_Wagon_01_Snow
+    Mesh Name: SM_Prop_Knights_Wagon_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Pirates_Ladder_01_Snow
+    Mesh Name: SM_Prop_Pirates_Ladder_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Pirate_Boat_01_Snow
+    Mesh Name: SM_Prop_Pirate_Boat_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Pirate_Boat_02_Snow
+    Mesh Name: SM_Prop_Pirate_Boat_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Pirate_Cannon_01_Snow
+    Mesh Name: SM_Prop_Pirate_Cannon_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Samurai_Fence_01_Snow
+    Mesh Name: SM_Prop_Samurai_Fence_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Samurai_Gong_01_Snow
+    Mesh Name: SM_Prop_Samurai_Gong_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Samurai_Shrine_01_Snow
+    Mesh Name: SM_Prop_Samurai_Shrine_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Samurai_Shrine_02_Snow
+    Mesh Name: SM_Prop_Samurai_Shrine_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Stairs_Stone_01_Snow
+    Mesh Name: SM_Prop_Stairs_Stone_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Stairs_Stone_02_Snow
+    Mesh Name: SM_Prop_Stairs_Stone_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Stairs_Stone_03_Snow
+    Mesh Name: SM_Prop_Stairs_Stone_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Stairs_Wood_01_Snow
+    Mesh Name: SM_Prop_Stairs_Wood_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Stairs_Wood_02_Snow
+    Mesh Name: SM_Prop_Stairs_Wood_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Stairs_Wood_03_Snow
+    Mesh Name: SM_Prop_Stairs_Wood_03_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_TreasureChest_Closed_01_Snow
+    Mesh Name: SM_Prop_TreasureChest_Closed_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_TreasureChest_Closed_02_Snow
+    Mesh Name: SM_Prop_TreasureChest_Closed_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_TreasureChest_Open_01_Snow
+    Mesh Name: SM_Prop_TreasureChest_Open_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_TreasureChest_Open_02_Snow
+    Mesh Name: SM_Prop_TreasureChest_Open_02_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Viking_Boat_01_Snow
+    Mesh Name: SM_Prop_Viking_Boat_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Viking_Fence_01_Snow
+    Mesh Name: SM_Prop_Viking_Fence_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Western_Fence_01_Snow
+    Mesh Name: SM_Prop_Western_Fence_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Prop_Western_Town_Arch_01_Snow
+    Mesh Name: SM_Prop_Western_Town_Arch_01_Snow
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+-------------------
+Folder Name: Tiles
+-------------------
+-------------------
+Folder Name: UI
+-------------------
+Prefab Name: SM_UI_Coin_01
+    Mesh Name: SM_UI_Coin_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Coin_02
+    Mesh Name: SM_UI_Coin_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Cube_Selection_01
+    Mesh Name: SM_UI_Cube_Selection_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Hex_Selection_01
+    Mesh Name: SM_UI_Hex_Selection_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Icon_Skull_01
+    Mesh Name: SM_UI_Icon_Skull_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_LevelPath_01
+    Mesh Name: SM_UI_LevelPath_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_LevelPath_02
+    Mesh Name: SM_UI_LevelPath_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_LevelPath_03
+    Mesh Name: SM_UI_LevelPath_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Level_01
+    Mesh Name: SM_UI_Level_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Level_02
+    Mesh Name: SM_UI_Level_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_LocationMarker_01
+    Mesh Name: SM_UI_LocationMarker_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_LocationMarker_02
+    Mesh Name: SM_UI_LocationMarker_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_LocationMarker_03
+    Mesh Name: SM_UI_LocationMarker_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_LocationMarker_04
+    Mesh Name: SM_UI_LocationMarker_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Number_00
+    Mesh Name: SM_UI_Number_00
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Number_01
+    Mesh Name: SM_UI_Number_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Number_02
+    Mesh Name: SM_UI_Number_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Number_03
+    Mesh Name: SM_UI_Number_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Number_04
+    Mesh Name: SM_UI_Number_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Number_05
+    Mesh Name: SM_UI_Number_05
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Number_06
+    Mesh Name: SM_UI_Number_06
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Number_07
+    Mesh Name: SM_UI_Number_07
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Number_08
+    Mesh Name: SM_UI_Number_08
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Number_09
+    Mesh Name: SM_UI_Number_09
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Star_01
+    Mesh Name: SM_UI_Star_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_UI_Star_02
+    Mesh Name: SM_UI_Star_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+-------------------
+Folder Name: Cube
+-------------------
+Prefab Name: SM_Tile_Cube_Column_01
+    Mesh Name: SM_Tile_Cube_Column_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Flat_01
+    Mesh Name: SM_Tile_Cube_Flat_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Flat_02
+    Mesh Name: SM_Tile_Cube_Flat_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Flat_03
+    Mesh Name: SM_Tile_Cube_Flat_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Flat_Water_01
+    Mesh Name: SM_Tile_Cube_Flat_Water_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Flat_Water_02
+    Mesh Name: SM_Tile_Cube_Flat_Water_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_FloatingIsland_01
+    Mesh Name: SM_Tile_Cube_FloatingIsland_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_FloatingIsland_Water_01
+    Mesh Name: SM_Tile_Cube_FloatingIsland_Water_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Forest_01
+    Mesh Name: SM_Tile_Cube_Forest_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Grass_Skirt_01
+    Mesh Name: SM_Tile_Cube_Grass_Skirt_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Hill_01
+    Mesh Name: SM_Tile_Cube_Hill_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Hill_02
+    Mesh Name: SM_Tile_Cube_Hill_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Hill_03
+    Mesh Name: SM_Tile_Cube_Hill_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Hill_04
+    Mesh Name: SM_Tile_Cube_Hill_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Hill_05
+    Mesh Name: SM_Tile_Cube_Hill_05
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Hill_06
+    Mesh Name: SM_Tile_Cube_Hill_06
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Hill_07
+    Mesh Name: SM_Tile_Cube_Hill_07
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Hill_08
+    Mesh Name: SM_Tile_Cube_Hill_08
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Island_01
+    Mesh Name: SM_Tile_Cube_Island_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Island_02
+    Mesh Name: SM_Tile_Cube_Island_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Island_03
+    Mesh Name: SM_Tile_Cube_Island_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Mountain_01
+    Mesh Name: SM_Tile_Cube_Mountain_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Mountain_02
+    Mesh Name: SM_Tile_Cube_Mountain_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Mountain_03
+    Mesh Name: SM_Tile_Cube_Mountain_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Mountain_04
+    Mesh Name: SM_Tile_Cube_Mountain_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Path_01
+    Mesh Name: SM_Tile_Cube_Path_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Path_02
+    Mesh Name: SM_Tile_Cube_Path_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Path_03
+    Mesh Name: SM_Tile_Cube_Path_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Path_04
+    Mesh Name: SM_Tile_Cube_Path_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Platform_01
+    Mesh Name: SM_Tile_Cube_Platform_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Pond_01
+    Mesh Name: SM_Tile_Cube_Pond_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Pond_02
+    Mesh Name: SM_Tile_Cube_Pond_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_River_01
+    Mesh Name: SM_Tile_Cube_River_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_River_02
+    Mesh Name: SM_Tile_Cube_River_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_River_03
+    Mesh Name: SM_Tile_Cube_River_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_River_04
+    Mesh Name: SM_Tile_Cube_River_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Rocks_01
+    Mesh Name: SM_Tile_Cube_Rocks_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Skulls_01
+    Mesh Name: SM_Tile_Cube_Skulls_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Waterfall_01
+    Mesh Name: SM_Tile_Cube_Waterfall_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Water_01
+    Mesh Name: SM_Tile_Cube_Water_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Water_02
+    Mesh Name: SM_Tile_Cube_Water_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Cube_Water_03
+    Mesh Name: SM_Tile_Cube_Water_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Grass_Skirt_01
+    Mesh Name: SM_Tile_Hex_Grass_Skirt_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+-------------------
+Folder Name: Hex
+-------------------
+Prefab Name: SM_Tile_Hex_Column_01
+    Mesh Name: SM_Tile_Hex_Column_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Column_Water_01
+    Mesh Name: SM_Tile_Hex_Column_Water_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Column_Water_02
+    Mesh Name: SM_Tile_Hex_Column_Water_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Column_Water_03
+    Mesh Name: SM_Tile_Hex_Column_Water_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Flat_01
+    Mesh Name: SM_Tile_Hex_Flat_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Flat_02
+    Mesh Name: SM_Tile_Hex_Flat_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Flat_03
+    Mesh Name: SM_Tile_Hex_Flat_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Flat_Water_01
+    Mesh Name: SM_Tile_Hex_Flat_Water_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Flat_Water_02
+    Mesh Name: SM_Tile_Hex_Flat_Water_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_FloatingIsland_01
+    Mesh Name: SM_Tile_Hex_FloatingIsland_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_FloatingIsland_Water_02
+    Mesh Name: SM_Tile_Hex_FloatingIsland_Water_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Forest_01
+    Mesh Name: SM_Tile_Hex_Forest_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Hill_01
+    Mesh Name: SM_Tile_Hex_Hill_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Hill_02
+    Mesh Name: SM_Tile_Hex_Hill_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Hill_03
+    Mesh Name: SM_Tile_Hex_Hill_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Hill_04
+    Mesh Name: SM_Tile_Hex_Hill_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Hill_05
+    Mesh Name: SM_Tile_Hex_Hill_05
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Hill_06
+    Mesh Name: SM_Tile_Hex_Hill_06
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Hill_07
+    Mesh Name: SM_Tile_Hex_Hill_07
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Hill_08
+    Mesh Name: SM_Tile_Hex_Hill_08
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Island_01
+    Mesh Name: SM_Tile_Hex_Island_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Island_02
+    Mesh Name: SM_Tile_Hex_Island_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Island_03
+    Mesh Name: SM_Tile_Hex_Island_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Mountain_01
+    Mesh Name: SM_Tile_Hex_Mountain_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Mountain_02
+    Mesh Name: SM_Tile_Hex_Mountain_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Mountain_03
+    Mesh Name: SM_Tile_Hex_Mountain_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Mountain_04
+    Mesh Name: SM_Tile_Hex_Mountain_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Mountain_05
+    Mesh Name: SM_Tile_Hex_Mountain_05
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Mountain_06
+    Mesh Name: SM_Tile_Hex_Mountain_06
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Path_01
+    Mesh Name: SM_Tile_Hex_Path_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Path_02
+    Mesh Name: SM_Tile_Hex_Path_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Path_03
+    Mesh Name: SM_Tile_Hex_Path_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Path_04
+    Mesh Name: SM_Tile_Hex_Path_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Path_05
+    Mesh Name: SM_Tile_Hex_Path_05
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Path_06
+    Mesh Name: SM_Tile_Hex_Path_06
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Path_07
+    Mesh Name: SM_Tile_Hex_Path_07
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Path_08
+    Mesh Name: SM_Tile_Hex_Path_08
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Path_09
+    Mesh Name: SM_Tile_Hex_Path_09
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Path_10
+    Mesh Name: SM_Tile_Hex_Path_10
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Path_11
+    Mesh Name: SM_Tile_Hex_Path_11
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Path_12
+    Mesh Name: SM_Tile_Hex_Path_12
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Pond_01
+    Mesh Name: SM_Tile_Hex_Pond_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Pond_02
+    Mesh Name: SM_Tile_Hex_Pond_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_River_01
+    Mesh Name: SM_Tile_Hex_River_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_River_02
+    Mesh Name: SM_Tile_Hex_River_02
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_River_03
+    Mesh Name: SM_Tile_Hex_River_03
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_River_04
+    Mesh Name: SM_Tile_Hex_River_04
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_River_05
+    Mesh Name: SM_Tile_Hex_River_05
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_River_06
+    Mesh Name: SM_Tile_Hex_River_06
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_River_07
+    Mesh Name: SM_Tile_Hex_River_07
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_River_08
+    Mesh Name: SM_Tile_Hex_River_08
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_River_09
+    Mesh Name: SM_Tile_Hex_River_09
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_River_10
+    Mesh Name: SM_Tile_Hex_River_10
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_River_11
+    Mesh Name: SM_Tile_Hex_River_11
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_River_12
+    Mesh Name: SM_Tile_Hex_River_12
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Rocks_01
+    Mesh Name: SM_Tile_Hex_Rocks_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Rock_Platform_01
+    Mesh Name: SM_Tile_Hex_Rock_Platform_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Skulls_01
+    Mesh Name: SM_Tile_Hex_Skulls_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+
+Prefab Name: SM_Tile_Hex_Waterfall_01
+    Mesh Name: SM_Tile_Hex_Waterfall_01
+        Slot: PolygonMinis_Fantasy_01 (PolygonMinis_Texture_01)
+

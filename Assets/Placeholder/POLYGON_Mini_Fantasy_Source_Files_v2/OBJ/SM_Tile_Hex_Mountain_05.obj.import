@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://yiegbx35vuvo"
+path="res://.godot/imported/SM_Tile_Hex_Mountain_05.obj-8c98ca54701e43d9e9c50f6c44959740.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SM_Tile_Hex_Mountain_05.obj-8c98ca54701e43d9e9c50f6c44959740.mesh"]
+
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/OBJ/SM_Tile_Hex_Mountain_05.obj"
+dest_files=["res://.godot/imported/SM_Tile_Hex_Mountain_05.obj-8c98ca54701e43d9e9c50f6c44959740.mesh", "res://.godot/imported/SM_Tile_Hex_Mountain_05.obj-8c98ca54701e43d9e9c50f6c44959740.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

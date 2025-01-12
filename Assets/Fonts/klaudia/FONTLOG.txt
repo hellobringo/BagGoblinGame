@@ -1,0 +1,117 @@
+This is the FONTLOG file for the "Klaudia" ("Klaudia-Book","Klaudia-Bold",
+"Klaudia-BoldOblique","Klaudia-BookOblique") Font.
+
+
+This file provides detailed information on the "Klaudia" Font Software.
+This information should be distributed along with the "Klaudia" font
+and any derivative works.
+
+
+Basic Font Information
+
+"Klaudia" Font is a Unicode typeface family that supports all languages
+that use the Latin script and its variants, and could be expanded to support
+other scripts.
+
+
+"Klaudia" Font you"ll find at: https://fontlibrary.org
+
+
+"Klaudia" Font is created with FontForge.
+
+
+More specifically, this release supports the following Unicode ranges:
+
+ - Basic Latin and Controls - 0000-007F (all)
+ - Latin 1 Supplement And Controls - 00A0-00FF (all)
+ - Latin Extended A - 0100-017F (all)
+ - Latin Extended B - 0192, 01FA-01FF, 0218-021B
+ - Spacing Modifier Letters - 02C6-02C7, 02C9-02CB, 02D8-02DD
+ - Latin Extended Additional - 1E02-1E03, 1E0A-1E0B, 1E1E-1E1F, 1E40-1E41,
+                               1E56-1E57, 1E60-1E61, 1E6A-1E6B, 1E80-1E85,
+                               1EF2-1EF3, 1E9E
+ - General Punctuation - 2013-2015, 2018-201E, 2020-2022, 2026, 2030, 2032-2033,
+                         2039, 203A, 203D, 2044
+ - Currency Symbols - 20AC
+ - Letterlike Symbols - 2105, 2113, 2116, 2117, 2122, 2126, 212E
+ - Mathematical Operators - 2202, 2206, 220F, 2211, 2212, 2215, 2219, 221A,
+                            221E, 222B, 2248, 2260, 2264, 2265
+ - Geometric Shapes - 25CA
+
+
+This release contains:
+
+ - Klaudia-Book.ttf
+ - Klaudia-BookOblique.ttf
+ - Klaudia-Bold.ttf
+ - Klaudia-BoldOblique.ttf
+ - FONTLOG.txt
+ - SIL - OpenFont License.txt - official license text
+ - Klaudia-Book.pdf - demo
+ - Klaudia-BookOblique.pdf - demo
+ - Klaudia-Bold.pdf - demo
+ - Klaudia-BoldOblique.pdf - demo
+
+
+ChangeLog
+
+10 May 2021 wmk69 (wmk69@o2.pl) "Klaudia" Version 3.1.0
+ - Changed left/right side bearings in Bold/BoldOblique.
+ - Fixed kerning for all.
+
+15 April 2020 wmk69 (wmk69@o2.pl) "Klaudia" Version 3.0.0
+ - Redesigned: "B", "S", "Z", "AE", "OE", "s", "z", "oe", "eth", "2", "7", "?"
+ - Improved shapes of all glyphs.
+ - Fixed kerning.
+ - Added UNI 01FA, 01FB, 02C6, 02C7, 02C9, 02CA, 02CB, 02D8, 02D9, 02DA, 02DB,
+                                     02DC, 02DD, 203D, 2116, 2117, 222B, 1E9E.
+ - Bold and Bold Oblique are now a little less thick
+                       than they was in last version.
+
+16 August 2011 wmk69 (wmk69@o2.pl) Klaudia Version 2.000
+- This release contains "Book", "Oblique", "Bold", and "Bold Oblique" versions.
+- I turned "Regular" into "Book", and created new "Bold" version.
+- added Oblique, and Bold Oblique version.
+- I"ve stopped develop "Book" version (because it was too light to read),
+  and "Demi" (it was of little use).
+
+14 July 2011 wmk69 (wmk69@o2.pl) Klaudia Version 2.000
+- all glyphs redesigned - I "cleaned" all glyphs, removed unnecessary points
+  and improved shapes of all glyphs.
+- added glyphs: 0191, 01FA-01FF, 022C, 022D, 0237, 1E02, 1E03, 1E0A, 1E0B, 1E1E,
+  1E1F, 1E40, 1E41, 1E56, 1E57, 1E60, 1E61, 1E6A, 1E6B, 1E80-1E85, 1EF2, 1EF3
+- changed names of fonts: "KlaudiaBook" - "Klaudia Book",
+                          "KlaudiaRegular" - "Klaudia Regular"
+                          "KlaudiaDemi" - "Klaudia Demi"
+                          "KlaudiaBold" - "Klaudia Bold"
+
+14 May 2011 wmk69 (wmk69@o2.pl) Klaudia Version 1.02
+- added Kerning by Classes Table (kern)
+
+04 May 2011 wmk69 (wmk69@o2.pl) Klaudia Version 1.01
+- Small changes with shape of some glyphs
+- added GridFitting Table (gasp) version 1
+- changed PS Private Dictionary
+
+10 April 2011 wmk69 (wmk69@o2.pl) Klaudia Version 1.0
+- Initial release
+
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D).
+
+
+History
+
+This is my newest idea about font. This family is based on Celtic inscriptions
+and Celtic-looking fonts, my old and new ideas and things
+I once saw (but I don"t know when...) :-)
+This work I dedicated to very important women in my life.
+Klaudia is the first part of two fonts family. The second part is
+Berenika. Both of these fonts are available in four variants: Book, Oblique,
+Bold and Bold Oblique.
+
+10 April 2011 wmk69 (wmk69@o2.pl)
+
