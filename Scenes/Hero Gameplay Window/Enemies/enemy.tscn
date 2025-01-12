@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://ddguxueh00sd0"]
+
+[ext_resource type="Script" path="res://Scenes/Hero Gameplay Window/Enemies/enemy.gd" id="1_x1dst"]
+[ext_resource type="Texture2D" uid="uid://bac1drdhwlyuy" path="res://Assets/Placeholder/Kenny/tile_0108.png" id="2_xqmej"]
+
+[node name="Enemy" type="Node2D"]
+script = ExtResource("1_x1dst")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -8)
+texture = ExtResource("2_xqmej")

@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://78sqpbeawjpd"]
+[gd_scene load_steps=4 format=3 uid="uid://78sqpbeawjpd"]
 
 [ext_resource type="Texture2D" uid="uid://dcra6hq2vv16f" path="res://Assets/Placeholder/seamless_dirt_ground_texture_by_hhh316-d4fon0w.jpg" id="1_qxqr3"]
 [ext_resource type="Texture2D" uid="uid://ssicob4e7jqk" path="res://Assets/Placeholder/Polygon_Fantasy_Characters_Source_Files_v2/Textures/Polygon_Fantasy_Characters_Texture_01_A.png" id="1_th2b0"]
+[ext_resource type="Script" path="res://Scenes/Hero Gameplay Window/Enemies/enemy_factory.gd" id="3_usawu"]
 
 [node name="Hero Gameplay Window" type="Node2D"]
 
@@ -24,3 +25,6 @@ position = Vector2(0, 7)
 position = Vector2(0, -38)
 scale = Vector2(0.0361454, 0.0722908)
 texture = ExtResource("1_th2b0")
+
+[node name="Enemy Factory" type="Node" parent="."]
+script = ExtResource("3_usawu")
