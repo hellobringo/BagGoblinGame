@@ -1,0 +1,67 @@
+[gd_scene load_steps=12 format=3 uid="uid://78sqpbeawjpd"]
+
+[ext_resource type="Texture2D" uid="uid://ssicob4e7jqk" path="res://Assets/Placeholder/Polygon_Fantasy_Characters_Source_Files_v2/Textures/Polygon_Fantasy_Characters_Texture_01_A.png" id="1_th2b0"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Hero/hero.gd" id="3_8rqyq"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/enemy_factory.gd" id="3_usawu"]
+[ext_resource type="Script" path="res://addons/state_machine_nodes/state_machine.gd" id="3_xwl76"]
+[ext_resource type="PackedScene" uid="uid://ddguxueh00sd0" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/enemy.tscn" id="4_3vm8m"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Hero/run_to_enemy.gd" id="4_tbovr"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/enemy_finder.gd" id="5_vsklv"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Hero/go_to_target_tile.gd" id="6_45lgd"]
+[ext_resource type="PackedScene" uid="uid://cqu76jkkv7l1r" path="res://Scenes & Scripts/Hero Gameplay Window/Map/map.tscn" id="8_tv5xv"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xva8n"]
+radius = 352.637
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4jxb5"]
+size = Vector2(500, 500)
+
+[node name="Hero Gameplay Window" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+scale = Vector2(-82717.9, 966567)
+
+[node name="Map" parent="." instance=ExtResource("8_tv5xv")]
+editor_description = "KEEP AT (0,0), SRSLY"
+
+[node name="Hero" type="Node2D" parent="."]
+visible = false
+position = Vector2(0, 7)
+script = ExtResource("3_8rqyq")
+
+[node name="Sprite2D" type="Sprite2D" parent="Hero"]
+position = Vector2(0, -38)
+scale = Vector2(0.0361454, 0.0722908)
+texture = ExtResource("1_th2b0")
+
+[node name="Area2D" type="Area2D" parent="Hero"]
+visible = false
+monitorable = false
+
+[node name="CircleCollisionShape2D" type="CollisionShape2D" parent="Hero/Area2D"]
+visible = false
+shape = SubResource("CircleShape2D_xva8n")
+
+[node name="StateMachine" type="Node" parent="Hero" node_paths=PackedStringArray("initial_state")]
+script = ExtResource("3_xwl76")
+initial_state = NodePath("go_to_target_tile")
+
+[node name="go_to_target_tile" type="Node" parent="Hero/StateMachine"]
+script = ExtResource("6_45lgd")
+
+[node name="go_to_enemy" type="Node" parent="Hero/StateMachine"]
+script = ExtResource("4_tbovr")
+
+[node name="Enemy Finder" type="Node" parent="Hero"]
+script = ExtResource("5_vsklv")
+
+[node name="Area2D" type="Area2D" parent="Hero/Enemy Finder"]
+visible = false
+monitorable = false
+
+[node name="SquareCollisionShape2D" type="CollisionShape2D" parent="Hero/Enemy Finder/Area2D"]
+shape = SubResource("RectangleShape2D_4jxb5")
+
+[node name="Enemy Factory" type="Node" parent="."]
+script = ExtResource("3_usawu")
+base_enemy_scene = ExtResource("4_3vm8m")

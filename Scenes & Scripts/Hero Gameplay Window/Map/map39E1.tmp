@@ -1,0 +1,80 @@
+[gd_scene load_steps=12 format=4 uid="uid://cqu76jkkv7l1r"]
+
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Map/map.gd" id="1_t6r6h"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Map/map_generator.gd" id="2_urv3w"]
+[ext_resource type="Texture2D" uid="uid://ce4v47hpr26ja" path="res://Assets/missingtexture.png" id="3_jti46"]
+[ext_resource type="PackedScene" uid="uid://6om1w787awfs" path="res://Scenes & Scripts/Hero Gameplay Window/Map/tile.tscn" id="4_7gkhk"]
+[ext_resource type="Texture2D" uid="uid://c6a486ghp051r" path="res://Assets/Placeholder/Quin tiles/quin_ph_tiles.png" id="5_0t3uy"]
+[ext_resource type="Texture2D" uid="uid://c706mqdosaxpr" path="res://Assets/Placeholder/skele.png" id="6_utmpy"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Map/test_movement.gd" id="7_wkcpj"]
+[ext_resource type="Texture2D" uid="uid://bac1drdhwlyuy" path="res://Assets/Placeholder/Kenny/tile_0108.png" id="8_tr01l"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cbdfa"]
+texture = ExtResource("5_0t3uy")
+texture_region_size = Vector2i(512, 512)
+0:1/0 = 0
+3:1/0 = 0
+0:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:2/0 = 0
+0:3/0 = 0
+3:2/0 = 0
+1:2/0 = 0
+2:1/0 = 0
+2:2/0 = 0
+1:1/0 = 0
+1:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_kxvf8"]
+tile_shape = 1
+tile_size = Vector2i(143, 100)
+custom_data_layer_0/name = ""
+custom_data_layer_0/type = 1
+sources/0 = SubResource("TileSetAtlasSource_cbdfa")
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_f5egd"]
+
+[node name="Map" type="Node2D"]
+texture_filter = 1
+position = Vector2(181, 42)
+script = ExtResource("1_t6r6h")
+tilemap_node_path = NodePath("TileMapLayer")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(3212, 2447)
+rotation = 3.14159
+scale = Vector2(49.9297, 65.1899)
+zoom = Vector2(0.1, 0.1)
+
+[node name="map_generator" type="Node2D" parent="."]
+script = ExtResource("2_urv3w")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("3_jti46")
+
+[node name="Tile" parent="." instance=ExtResource("4_7gkhk")]
+visible = false
+position = Vector2(-181, -42)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(117, -245)
+tile_map_data = PackedByteArray("AAD+/wYAAAAAAAAAAAD9/wUAAAAAAAAAAAD+/wQAAAAAAAAAAAD+/wUAAAAAAAAAAAD//wYAAAAAAAAAAAD//wUAAAAAAAAAAAD//wQAAAAAAAAAAAD//wMAAAAAAAAAAAD//wIAAAAAAAAAAAD+/wMAAAAAAAAAAAD+/wIAAAAAAAAAAAD9/wMAAAAAAAAAAAD9/wQAAAAAAAAAAAD8/wMAAAAAAAAAAAD8/wIAAAAAAAAAAAD7/wMAAAAAAAAAAAD7/wQAAAAAAAAAAAD9/wIAAAAAAAAAAAD9/wEAAAAAAAAAAAD9/wYAAAAAAAAAAAD8/wUAAAAAAAAAAAD8/wQAAAAAAAAAAAD8/wEAAAAAAAAAAAD9/wAAAAAAAAAAAAD+/wAAAAAAAAAAAAD+/wEAAAAAAAAAAAD8/wAAAAAAAAAAAAD8////AAAAAAAAAAD9////AAAAAAAAAAD//wAAAAAAAAAAAAD//wEAAAAAAAAAAAD+/wcAAAAAAAAAAAD+/wgAAAAAAAAAAAD9/wkAAAAAAAAAAAD9/wgAAAAAAAAAAAD8/wcAAAAAAAAAAAD8/wYAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAD9/wcAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAYAAAAAAAAAAAD//wcAAAAAAAAAAAD7/wUAAAAAAAAAAAD7/wcAAAAAAAAAAAD7/wYAAAAAAAAAAAD7/wIAAAAAAAAAAAD7/wEAAAAAAAAAAAD7/wAAAAAAAAAAAAD7////AAAAAAAAAAD8//7/AAAAAAAAAAD8//3/AAAAAAAAAAD9//7/AAAAAAAAAAD9//3/AAAAAAAAAAD+//z/AAAAAAAAAAD+//3/AAAAAAAAAAD///7/AAAAAAAAAAD+////AAAAAAAAAAD+//7/AAAAAAAAAAA=")
+tile_set = SubResource("TileSet_kxvf8")
+
+[node name="Skele" type="Sprite2D" parent="."]
+position = Vector2(-225, -157)
+scale = Vector2(0.296361, 0.296361)
+texture = ExtResource("6_utmpy")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("7_wkcpj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_f5egd")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+scale = Vector2(4.25, 4.25)
+texture = ExtResource("8_tr01l")

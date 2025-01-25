@@ -1,0 +1,94 @@
+[gd_scene load_steps=12 format=4 uid="uid://cqu76jkkv7l1r"]
+
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Map/map.gd" id="1_t6r6h"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Map/map_generator.gd" id="2_urv3w"]
+[ext_resource type="Texture2D" uid="uid://ce4v47hpr26ja" path="res://Assets/missingtexture.png" id="3_jti46"]
+[ext_resource type="Texture2D" uid="uid://c6a486ghp051r" path="res://Assets/Placeholder/Quin tiles/quin_ph_tiles.png" id="5_0t3uy"]
+[ext_resource type="Texture2D" uid="uid://c706mqdosaxpr" path="res://Assets/Placeholder/skele.png" id="6_utmpy"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Map/test_movement.gd" id="7_wkcpj"]
+[ext_resource type="Texture2D" uid="uid://bac1drdhwlyuy" path="res://Assets/Placeholder/Kenny/tile_0108.png" id="8_tr01l"]
+
+[sub_resource type="SystemFont" id="SystemFont_quy50"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cbdfa"]
+texture = ExtResource("5_0t3uy")
+texture_region_size = Vector2i(512, 512)
+0:1/0 = 0
+0:1/0/texture_origin = Vector2i(0, 95)
+3:1/0 = 0
+3:1/0/texture_origin = Vector2i(0, 95)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 95)
+0:0/0/custom_data_0 = true
+2:0/0 = 0
+2:0/0/texture_origin = Vector2i(0, 95)
+3:0/0 = 0
+3:0/0/texture_origin = Vector2i(0, 95)
+0:2/0 = 0
+0:2/0/texture_origin = Vector2i(0, 95)
+0:3/0 = 0
+0:3/0/texture_origin = Vector2i(0, 95)
+3:2/0 = 0
+3:2/0/texture_origin = Vector2i(0, 95)
+1:2/0 = 0
+1:2/0/texture_origin = Vector2i(0, 95)
+2:1/0 = 0
+2:1/0/texture_origin = Vector2i(0, 95)
+2:2/0 = 0
+2:2/0/texture_origin = Vector2i(0, 95)
+1:1/0 = 0
+1:1/0/texture_origin = Vector2i(0, 95)
+1:0/0 = 0
+1:0/0/texture_origin = Vector2i(0, 95)
+
+[sub_resource type="TileSet" id="TileSet_kxvf8"]
+tile_shape = 1
+tile_layout = 4
+tile_size = Vector2i(143, 100)
+custom_data_layer_0/name = "walkable"
+custom_data_layer_0/type = 1
+sources/0 = SubResource("TileSetAtlasSource_cbdfa")
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_f5egd"]
+
+[node name="Map" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1_t6r6h")
+tilemap_node_path = NodePath("TileMapLayer")
+font = SubResource("SystemFont_quy50")
+
+[node name="map_generator" type="Node2D" parent="."]
+script = ExtResource("2_urv3w")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("3_jti46")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+modulate = Color(1, 1, 1, 0.572549)
+y_sort_enabled = true
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAMAAAABAAAAAAAAAAQAAAAAAAAAAAD//wIAAAAAAAAAAAD//wMAAAAAAAAAAAD//wQAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAcAAAAAAAAAAAD//wcAAAAAAAAAAAD+/wcAAAAAAAAAAAD+/wgAAAAAAAAAAAD+/wkAAAAAAAAAAAD//wkAAAAAAAAAAAAAAAkAAAAAAAAAAAABAAkAAAAAAAAAAAACAAkAAAAAAAAAAAACAAgAAAAAAAAAAAACAAcAAAAAAAAAAAADAAcAAAABAAAAAAADAAYAAAABAAAAAAAEAAYAAAAAAAAAAAAEAAcAAAAAAAAAAAADAAgAAAAAAAAAAAAFAAYAAAAAAAAAAAAFAAcAAAAAAAAAAAAFAAgAAAABAAAAAAAEAAgAAAAAAAAAAAAEAAUAAAAAAAAAAAAFAAUAAAAAAAAAAAAGAAYAAAAAAAAAAAAGAAcAAAAAAAAAAAAHAAYAAAAAAAAAAAAHAAcAAAAAAAAAAAAGAAgAAAAAAAAAAAAIAAcAAAAAAAAAAAAIAAgAAAAAAAAAAAAIAAkAAAAAAAAAAAAIAAoAAAAAAAAAAAAHAAoAAAAAAAAAAAAGAAoAAAAAAAAAAAAFAAoAAAAAAAAAAAAEAAoAAAAAAAAAAAAEAAsAAAAAAAAAAAADAAsAAAAAAAAAAAADAAwAAAAAAAAAAAACAAwAAAAAAAAAAAABAAwAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA8AAAAAAAAAAAAAABAAAAAAAAAAAAAAABEAAAAAAAAAAAAAABIAAAAAAAAAAAAAABMAAAAAAAAAAAD//xMAAAAAAAAAAAABABMAAAAAAAAAAAACABMAAAAAAAAAAAACABIAAAAAAAAAAAACABEAAAAAAAAAAAACABAAAAAAAAAAAAACAA8AAAAAAAAAAAABAA8AAAAAAAAAAAABABAAAAAAAAAAAAABABEAAAAAAAAAAAABABIAAAAAAAAAAAD//xIAAAAAAAAAAAD//xEAAAAAAAAAAAD//xAAAAAAAAAAAAD//w8AAAAAAAAAAAA=")
+tile_set = SubResource("TileSet_kxvf8")
+
+[node name="Skele" type="Sprite2D" parent="."]
+position = Vector2(-225, -157)
+scale = Vector2(0.296361, 0.296361)
+texture = ExtResource("6_utmpy")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(140, 80)
+script = ExtResource("7_wkcpj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_f5egd")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+scale = Vector2(4.25, 4.25)
+texture = ExtResource("8_tr01l")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(136, 141)
+
+[node name="Label" type="Label" parent="."]
+offset_right = 190.0
+offset_bottom = 27.0

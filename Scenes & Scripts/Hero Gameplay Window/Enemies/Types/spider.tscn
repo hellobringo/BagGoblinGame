@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://deo0qqbvkwyvs"]
+
+[ext_resource type="PackedScene" uid="uid://ddguxueh00sd0" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/enemy.tscn" id="1_hlign"]
+[ext_resource type="Texture2D" uid="uid://blv2poqboy1ck" path="res://Assets/Placeholder/Kenny/tile_0122.png" id="2_kyjmj"]
+
+[node name="Ghoul" instance=ExtResource("1_hlign")]
+hp = 5
+attack_speed = 2.0
+move_speed = 2.0
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_kyjmj")

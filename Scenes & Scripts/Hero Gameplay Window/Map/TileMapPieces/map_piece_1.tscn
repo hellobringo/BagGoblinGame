@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=4 uid="uid://impll7yxkv5j"]
+
+[ext_resource type="TileSet" uid="uid://by3b08pdthyit" path="res://Scenes & Scripts/Hero Gameplay Window/Map/tile_set_resource.tres" id="1_cyget"]
+
+[node name="MapPiece0" type="TileMapLayer"]
+tile_map_data = PackedByteArray("AAAAAAUAAAAAAAAAAAAAAAYABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAABAAQAAAAAAAAAAAACAAQAAAAAAAAAAAACAAMAAAAAAAAAAAACAAIAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAD//wEAAAAAAAAAAAD//wIAAAAAAAAAAAD//wAAAAAAAAAAAAA=")
+tile_set = ExtResource("1_cyget")

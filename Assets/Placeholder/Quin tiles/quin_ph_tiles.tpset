@@ -1,0 +1,213 @@
+{
+	"textures": [
+		{
+			"image": "quin_ph_tiles.png",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"sprites": [
+				{
+					"filename": "dungeon_tile_0000.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "dungeon_tile_0001.png",
+					"region": {
+						"x": 512,
+						"y": 0,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "dungeon_tile_0002.png",
+					"region": {
+						"x": 1024,
+						"y": 0,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "dungeon_tile_0003.png",
+					"region": {
+						"x": 1536,
+						"y": 0,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "dungeon_tile_0004.png",
+					"region": {
+						"x": 0,
+						"y": 512,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "dungeon_tile_0005.png",
+					"region": {
+						"x": 512,
+						"y": 512,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "dungeon_tile_0006.png",
+					"region": {
+						"x": 1024,
+						"y": 512,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "dungeon_tile_0007.png",
+					"region": {
+						"x": 1536,
+						"y": 512,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "dungeon_tile_0008.png",
+					"region": {
+						"x": 0,
+						"y": 1024,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "dungeon_tile_0009.png",
+					"region": {
+						"x": 512,
+						"y": 1024,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "dungeon_tile_0010.png",
+					"region": {
+						"x": 1024,
+						"y": 1024,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "dungeon_tile_0011.png",
+					"region": {
+						"x": 1536,
+						"y": 1024,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "dungeon_tile_0012.png",
+					"region": {
+						"x": 0,
+						"y": 1536,
+						"w": 512,
+						"h": 512
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:f2db18b2ccf527e6d689db8bfc2f5129:0c1068f519bfeb5753a9ee371d6ed65d:0db813de24bd17e1977865e4bdfbdd1b$"
+	}
+}

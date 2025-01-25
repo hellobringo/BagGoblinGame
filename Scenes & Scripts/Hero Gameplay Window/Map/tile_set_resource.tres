@@ -1,0 +1,58 @@
+[gd_resource type="TileSet" load_steps=5 format=3 uid="uid://by3b08pdthyit"]
+
+[ext_resource type="Texture2D" uid="uid://c6a486ghp051r" path="res://Assets/Placeholder/Quin tiles/quin_ph_tiles.png" id="1_bmjkp"]
+[ext_resource type="Texture2D" uid="uid://cd67wmpraxr4t" path="res://Assets/Placeholder/Quin tiles/quin_ph_tiles_markers.png" id="2_ksp0o"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gymic"]
+texture = ExtResource("1_bmjkp")
+texture_region_size = Vector2i(512, 512)
+0:1/0 = 0
+0:1/0/texture_origin = Vector2i(0, 95)
+3:1/0 = 0
+3:1/0/texture_origin = Vector2i(0, 95)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 95)
+0:0/0/custom_data_0 = true
+2:0/0 = 0
+2:0/0/texture_origin = Vector2i(0, 95)
+3:0/0 = 0
+3:0/0/texture_origin = Vector2i(0, 95)
+0:2/0 = 0
+0:2/0/texture_origin = Vector2i(0, 95)
+0:3/0 = 0
+0:3/0/texture_origin = Vector2i(0, 95)
+3:2/0 = 0
+3:2/0/texture_origin = Vector2i(0, 95)
+1:2/0 = 0
+1:2/0/texture_origin = Vector2i(0, 95)
+2:1/0 = 0
+2:1/0/texture_origin = Vector2i(0, 95)
+2:2/0 = 0
+2:2/0/texture_origin = Vector2i(0, 95)
+1:1/0 = 0
+1:1/0/texture_origin = Vector2i(0, 95)
+1:0/0 = 0
+1:0/0/texture_origin = Vector2i(0, 95)
+1:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rtm8u"]
+texture = ExtResource("2_ksp0o")
+margins = Vector2i(0, 95)
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+0:0/0/custom_data_0 = true
+0:0/0/custom_data_2 = true
+1:0/0 = 0
+
+[resource]
+tile_shape = 1
+tile_layout = 4
+tile_size = Vector2i(143, 100)
+custom_data_layer_0/name = "walkable"
+custom_data_layer_0/type = 1
+custom_data_layer_1/name = "enemy_spawner"
+custom_data_layer_1/type = 1
+custom_data_layer_2/name = "exit"
+custom_data_layer_2/type = 1
+sources/0 = SubResource("TileSetAtlasSource_gymic")
+sources/4 = SubResource("TileSetAtlasSource_rtm8u")
