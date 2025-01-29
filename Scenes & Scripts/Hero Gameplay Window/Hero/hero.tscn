@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=3 uid="uid://b4gamolr0hmd0"]
+
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Map/test_movement.gd" id="1_q6dwn"]
+[ext_resource type="Texture2D" uid="uid://jxc8bmihdqul" path="res://Assets/Placeholder/Diablo2_0.png" id="2_iux0p"]
+[ext_resource type="Script" path="res://addons/state_machine_nodes/state_machine.gd" id="3_yn8ru"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Hero/go_to_target_tile.gd" id="4_27y2j"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Hero/run_to_enemy.gd" id="5_v62t5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dpmc2"]
+size = Vector2(25, 59)
+
+[node name="Hero" type="CharacterBody2D"]
+script = ExtResource("1_q6dwn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -43)
+texture = ExtResource("2_iux0p")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CircleCollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-0.5, -28.5)
+shape = SubResource("RectangleShape2D_dpmc2")
+
+[node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state")]
+script = ExtResource("3_yn8ru")
+initial_state = NodePath("go_to_target_tile")
+
+[node name="go_to_target_tile" type="Node" parent="StateMachine"]
+script = ExtResource("4_27y2j")
+
+[node name="go_to_enemy" type="Node" parent="StateMachine"]
+script = ExtResource("5_v62t5")
+
+[node name="Pathfinder" type="Node" parent="."]
+
+[node name="Label" type="Label" parent="."]
+offset_left = -93.0
+offset_top = -162.0
+offset_right = -38.0
+offset_bottom = -139.0
+text = "Label 1"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = -93.0
+offset_top = -140.0
+offset_right = -38.0
+offset_bottom = -117.0
+text = "Label 2"
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

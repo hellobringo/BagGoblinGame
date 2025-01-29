@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@onready var map: DungeonMap = $".."
+@export var map: DungeonMap
 
 const MOTION_SPEED = 200 # Pixels/second.
 enum States { STOPPED, MOVING }
@@ -8,9 +8,35 @@ var _state = States.STOPPED
 var _destination = Vector2()
 var _next_cell = position
 var _path : PackedVector2Array = []
+@onready var area_2d: Area2D = $Area2D
 
-@onready var label: Label = $"../Camera2D/Label"
-@onready var label2: Label = $"../Camera2D/Label2"
+@onready var label: Label = $Label
+@onready var label2: Label = $Label2
+
+signal exiting_map_piece
+
+func _ready() -> void:
+	# First, check if 'map' itself is valid
+	if map == null:
+		print("Error: 'map' is not assigned!")
+		return
+	
+	# Defer initialization if 'empty_tilemap' is not ready
+	if map.empty_tilemap == null:
+		print("empty_tilemap is not initialized. Deferring initialization...")
+		call_deferred("_initialize_player")
+	else:
+		print("empty_tilemap is ready!")
+		_initialize_player()
+
+func _initialize_player() -> void:
+	# Ensure map and empty_tilemap are valid before proceeding
+	if map != null and map.empty_tilemap != null:
+		position = map.cell_to_world(Vector2i(0, 1))
+		print("Player initialized at:", position)
+	else:
+		print("Failed to initialize player. 'map' or 'empty_tilemap' is null.")
+
 
 func _process(delta: float) -> void:
 	var mouse
@@ -36,4 +62,10 @@ func _unhandled_input(event):
 		_destination = map.world_to_cell(get_global_mouse_position())
 		var current_pos = map.world_to_cell(position)
 		_path = map.astar.get_point_path(map._cell_to_id(current_pos),map._cell_to_id(_destination), true)
+#		print(_path)
+		_next_cell = _path[0]
 		_state = States.MOVING
+
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	if area.is_in_group("exits"):
+		exiting_map_piece.emit()

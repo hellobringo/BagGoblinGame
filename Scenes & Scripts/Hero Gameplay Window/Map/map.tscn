@@ -1,9 +1,9 @@
 [gd_scene load_steps=14 format=3 uid="uid://cqu76jkkv7l1r"]
 
 [ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Map/map.gd" id="1_t6r6h"]
+[ext_resource type="PackedScene" uid="uid://pafhdlfui0rg" path="res://Scenes & Scripts/Hero Gameplay Window/Map/TileMapPieces/test_mini_map_piece_1.tscn" id="2_ikfp3"]
 [ext_resource type="Texture2D" uid="uid://ce4v47hpr26ja" path="res://Assets/missingtexture.png" id="3_jti46"]
-[ext_resource type="PackedScene" uid="uid://xiwmy28ekvbi" path="res://Scenes & Scripts/Hero Gameplay Window/Map/TileMapPieces/map_piece_0.tscn" id="3_mcpkq"]
-[ext_resource type="PackedScene" uid="uid://impll7yxkv5j" path="res://Scenes & Scripts/Hero Gameplay Window/Map/TileMapPieces/map_piece_1.tscn" id="4_x2muj"]
+[ext_resource type="PackedScene" uid="uid://d2fgd3al052su" path="res://Scenes & Scripts/Hero Gameplay Window/Map/TileMapPieces/test_mini_map_piece.tscn" id="3_o5ihe"]
 [ext_resource type="Texture2D" uid="uid://c6a486ghp051r" path="res://Assets/Placeholder/Quin tiles/quin_ph_tiles.png" id="5_0t3uy"]
 [ext_resource type="Texture2D" uid="uid://c706mqdosaxpr" path="res://Assets/Placeholder/skele.png" id="6_utmpy"]
 [ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Map/test_movement.gd" id="7_wkcpj"]
@@ -57,7 +57,8 @@ sources/0 = SubResource("TileSetAtlasSource_0hjsk")
 [node name="Map" type="Node2D"]
 texture_filter = 1
 script = ExtResource("1_t6r6h")
-map_pieces = Array[PackedScene]([ExtResource("3_mcpkq"), ExtResource("4_x2muj")])
+map_pieces = Array[PackedScene]([ExtResource("2_ikfp3"), ExtResource("3_o5ihe")])
+debug_show_marker_cells = true
 font = SubResource("SystemFont_quy50")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -75,6 +76,8 @@ scale = Vector2(0.296361, 0.296361)
 texture = ExtResource("6_utmpy")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+process_mode = 4
+visible = false
 position = Vector2(73, 30)
 script = ExtResource("7_wkcpj")
 

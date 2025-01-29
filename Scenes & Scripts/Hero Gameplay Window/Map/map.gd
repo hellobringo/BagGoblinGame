@@ -2,75 +2,43 @@ extends Node2D
 class_name DungeonMap
 
 @export var map_pieces : Array[PackedScene] = []
-#@export var tilemap_node_path: NodePath  # Path to the TileMap node
-@export var font: SystemFont  # Assign a DynamicFont resource for text drawing
+
+var empty_tilemap
 var astar := AStar2D.new()
-@onready var character_body_2d: CharacterBody2D = $CharacterBody2D
-@onready var empty_tilemap : TileMapLayer = $TileMapLayer
 var previous_exit_cell : Vector2i = Vector2i.ZERO
+
+@export var debug_show_marker_cells : bool = false
+@export var font: SystemFont  # Assign a DynamicFont resource for text drawing
 
 #	Terms:
 #	Cell - An isometric square of the tile map
 #		They are represented by a vector2i i.e. Vector2i(0, 1) 
 #	ID - Arbitrary id number for astar to differentiate points
-#
-#
- 
-var _pieces : int = 3
-func _ready():
-	for i in _pieces:
-		spawn_random_map_piece()
-		queue_redraw()
 
 
-func spawn_random_map_piece():
+func initialize(): # Called from Level Builder's _ready()
+	empty_tilemap = $TileMapLayer
+
+func spawn_random_map_piece() -> TileMapLayer:
+	var instance
 	var random_index = randi() % map_pieces.size()
 	if random_index >= 0 and random_index < map_pieces.size():
 		var piece_scene = map_pieces[random_index]
-		if piece_scene:
-			var instance = piece_scene.instantiate() as TileMapLayer
-			if previous_exit_cell != Vector2i.ZERO:
-				var exit_world_position = tile_to_world(previous_exit_cell)  # Convert exit cell to world position
-				instance.position = exit_world_position  # Position the new piece at the previous exit
-			add_and_link_astar(instance)
-			empty_tilemap.add_child(instance)
-			print("Spawned level piece at position: ", instance.position)
-		else:
-			print("Piece at index ", random_index, " is invalid.")
-	else:
-		print("Invalid piece index: ", random_index)
-	pass
-
-
-
-func add_and_link_astar(tilemaplayer : TileMapLayer):
-	if tilemaplayer:
-		var used_cells = tilemaplayer.get_used_cells()  # Get all cells in this layer
-		var layer_offset = world_to_cell(tilemaplayer.position) + Vector2i(0, 1)  # Calculate the offset in cell coordinates
+		instance = piece_scene.instantiate() as TileMapLayer
+		if previous_exit_cell != Vector2i.ZERO: # If a previous exit cell exists
+			var exit_world_position = cell_to_world(previous_exit_cell)  # Convert exit cell to world position
+			instance.position = exit_world_position  # Position the new piece at the previous exit
+		empty_tilemap.add_child(instance)
+		add_and_link_astar(instance)
+#		print("Spawned level piece at position: ", instance.position)
+#	else:
+#		print("Invalid piece index: ", random_index)
 		
-		for cell in used_cells:
-			var adjusted_cell = cell + layer_offset  # Adjust cell coordinates with the offset
-			var walkable = tilemaplayer.get_cell_tile_data(cell).get_custom_data("walkable")
-			var is_exit = tilemaplayer.get_cell_tile_data(cell).get_custom_data("exit")
-			var local_pos = tilemaplayer.map_to_local(cell)
-			var world_pos = tilemaplayer.to_global(local_pos)  # Convert to global space
-			var cell_index = _cell_to_id(adjusted_cell)  # Generate a unique index for this cell
-			# Add the cell to AStar2D
-			astar.add_point(cell_index, world_pos)
-			# Disable the point if it's not walkable
-			if not walkable:
-				astar.set_point_disabled(cell_index, true)
-			if is_exit:
-				previous_exit_cell = adjusted_cell
-		_link_neighbors()
-		
-		# Debug: Print linked points
-		print("Linked AStar graph setup complete!")
+	return instance
 
+#		------------ Important public functions ------------ 
 
-#		------------Important functions for other things to use in the game----------
-
-func tile_to_world(tile_coords: Vector2i) -> Vector2:
+func cell_to_world(tile_coords: Vector2i) -> Vector2:
 	var local_pos = empty_tilemap.map_to_local(tile_coords) # Convert tile to local position
 	return empty_tilemap.to_global(local_pos)  # Convert local position to world space
 
@@ -82,7 +50,72 @@ func world_to_cell(world_position: Vector2) -> Vector2i:
 func tile_to_local(tile_coords: Vector2i) -> Vector2:
 	return empty_tilemap.map_to_local(tile_coords)  # Converts tile coordinates to local position
 
-#						----------End of public functions----------------
+func get_enemy_spawn_positions(tilemaplayer : TileMapLayer) -> Array[Vector2] :
+	var enemy_spawners : Array[Vector2] = []
+	var marker_tilemap : TileMapLayer = tilemaplayer.get_child(0)
+	var marker_cells = marker_tilemap.get_used_cells() # Get marker cells such as exit, spawn_enemies, etc.
+	for cell in marker_cells:
+		var is_spawner = marker_tilemap.get_cell_tile_data(cell).get_custom_data("enemy_spawner")
+		if is_spawner:
+			var cell_global_position = cell_to_world(cell) + tilemaplayer.global_position
+			print("cell: ", cell ,"spawner cell to world: ", cell_to_world(cell))
+			enemy_spawners.append(cell_global_position)
+	print(enemy_spawners)
+	return enemy_spawners
+
+func remove_from_astar(tilemaplayer : TileMapLayer):
+	if tilemaplayer:
+		var level_cells = tilemaplayer.get_used_cells()  # Get all cells in this layer
+		var marker_tilemap : TileMapLayer = tilemaplayer.get_child(0)
+		var marker_cells = marker_tilemap.get_used_cells() # Get marker cells such as exit, spawn_enemies, etc.
+		
+		var layer_offset = world_to_cell(tilemaplayer.position) + Vector2i(0, 1)  # Calculate the offset in cell coordinates
+		
+		for cell in level_cells:
+			var adjusted_cell = cell + layer_offset  # Adjust cell coordinates with the offset
+			var cell_index = _cell_to_id(adjusted_cell)  # Generate a unique index for this cell
+			# Add the cell to AStar2D
+			astar.remove_point(cell_index)
+			# Disable the point if it's not walkable
+		_link_neighbors()
+
+func add_and_link_astar(tilemaplayer : TileMapLayer):
+	if tilemaplayer:
+		var level_cells = tilemaplayer.get_used_cells()  # Get all cells in this layer
+		var marker_tilemap : TileMapLayer = tilemaplayer.get_child(0)
+		var marker_cells = marker_tilemap.get_used_cells() # Get marker cells such as exit, spawn_enemies, etc.
+		
+		var layer_offset = world_to_cell(tilemaplayer.position) + Vector2i(0, 1)  # Calculate the offset in cell coordinates
+		
+		for cell in level_cells:
+			var walkable = tilemaplayer.get_cell_tile_data(cell).get_custom_data("walkable")
+			var local_pos = tilemaplayer.map_to_local(cell)
+			var world_pos = tilemaplayer.to_global(local_pos)  # Convert to global space
+			var adjusted_cell = cell + layer_offset  # Adjust cell coordinates with the offset
+			var cell_index = _cell_to_id(adjusted_cell)  # Generate a unique index for this cell
+			# Add the cell to AStar2D
+			astar.add_point(cell_index, world_pos)
+			# Disable the point if it's not walkable
+			if not walkable:
+				astar.set_point_disabled(cell_index, true)
+		
+		for cell in marker_cells:
+			var adjusted_cell = cell + layer_offset
+			var is_exit = marker_tilemap.get_cell_tile_data(cell).get_custom_data("exit")
+			var cell_index = _cell_to_id(adjusted_cell)
+			var world_pos = tilemaplayer.to_global(marker_tilemap.map_to_local(cell))
+			astar.add_point(cell_index, world_pos)
+			if is_exit:
+				previous_exit_cell = cell + layer_offset
+				_add_exit_collider(world_pos, tilemaplayer)
+			pass
+		
+		if debug_show_marker_cells == false : marker_tilemap.visible = false
+		
+		_link_neighbors()
+		
+		# Debug: Print linked points
+#		print("Linked AStar graph setup complete!")
 
 # Local function that generates unique IDs for cells
 func _cell_to_id(cell: Vector2i) -> int:
@@ -116,6 +149,17 @@ func _link_neighbors():
 			if astar.has_point(neighbor_index) and not astar.is_point_disabled(neighbor_index):
 				if not astar.are_points_connected(cell_index, neighbor_index):
 					astar.connect_points(cell_index, neighbor_index)
+	queue_redraw()
+
+func _add_exit_collider(location : Vector2, parent : Node2D):
+	var area = Area2D.new()
+	area.add_to_group("exits")
+	var collision_shape_node = CollisionShape2D.new();
+	var circle_shape = CircleShape2D.new()
+	circle_shape.radius = 30.0
+	collision_shape_node.set_shape(circle_shape);
+	area.add_child(collision_shape_node)
+	parent.add_child(area)
 
 #Debug stuff
 func _draw():

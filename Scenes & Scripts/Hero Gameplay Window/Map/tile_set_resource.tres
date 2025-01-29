@@ -40,9 +40,9 @@ texture = ExtResource("2_ksp0o")
 margins = Vector2i(0, 95)
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
-0:0/0/custom_data_0 = true
 0:0/0/custom_data_2 = true
 1:0/0 = 0
+1:0/0/custom_data_1 = true
 
 [resource]
 tile_shape = 1
