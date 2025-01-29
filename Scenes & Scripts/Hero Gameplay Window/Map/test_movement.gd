@@ -32,7 +32,7 @@ func _ready() -> void:
 func _initialize_player() -> void:
 	# Ensure map and empty_tilemap are valid before proceeding
 	if map != null and map.empty_tilemap != null:
-		position = map.cell_to_world(Vector2i(0, 1))
+		position = map.cell_to_world(Vector2i.ZERO)
 		print("Player initialized at:", position)
 	else:
 		print("Failed to initialize player. 'map' or 'empty_tilemap' is null.")

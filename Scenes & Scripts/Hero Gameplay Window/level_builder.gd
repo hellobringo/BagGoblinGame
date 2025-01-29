@@ -22,15 +22,14 @@ func _ready() -> void:
 	map.initialize()
 	enemy_factory.initialize()
 	
-	
 	for i in map_piece_amount : 
 		spawned_map_pieces.append(map.spawn_random_map_piece())
 	
 
 func _on_hero_exit_map_piece(): # + Enters a new map piece
-	hero_current_map_piece += 1
-	print("spawning on piece: ", hero_current_map_piece, ". object name: ", spawned_map_pieces[hero_current_map_piece])
+	if hero_current_map_piece < 6: hero_current_map_piece += 1
 	_spawn_enemys(spawned_map_pieces[hero_current_map_piece])
+	print("spawning enemies on map piece: ", hero_current_map_piece)
 	if hero_head_start > 0 : hero_head_start -= 1
 	else:
 		_delete_map_piece()
@@ -39,7 +38,7 @@ func _on_hero_exit_map_piece(): # + Enters a new map piece
 func _delete_map_piece():
 	var piece_to_delete : TileMapLayer = spawned_map_pieces.pop_at(0)
 	map.remove_from_astar(piece_to_delete)
-	piece_to_delete.queue_free()
+	piece_to_delete.queue_free() #Destroy map piece
 
 func _spawn_enemys(tilemaplayer : TileMapLayer):
 	var enemy_spawn_positions : Array[Vector2] = map.get_enemy_spawn_positions(tilemaplayer)

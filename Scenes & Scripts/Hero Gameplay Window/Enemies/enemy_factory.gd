@@ -20,7 +20,7 @@ func spawn_enemy(amount : int, position : Vector2):
 	for i in amount:
 		var enemy : Enemy = pool.pull_from_pool()
 		enemy._hero = _hero
-		enemy.global_position = position
+		enemy.global_position = position + Vector2.ONE * (randi() % 50)
 		add_child(enemy)
 		enemy.spawn()
 	pass
