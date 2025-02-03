@@ -32,6 +32,12 @@ script = ExtResource("4_27y2j")
 [node name="go_to_enemy" type="Node" parent="StateMachine"]
 script = ExtResource("5_v62t5")
 
+[node name="go_to_enemy2" type="Node" parent="StateMachine"]
+script = ExtResource("5_v62t5")
+
+[node name="go_to_enemy3" type="Node" parent="StateMachine"]
+script = ExtResource("5_v62t5")
+
 [node name="Pathfinder" type="Node" parent="."]
 
 [node name="Label" type="Label" parent="."]

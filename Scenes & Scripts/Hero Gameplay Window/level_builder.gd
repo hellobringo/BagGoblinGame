@@ -24,7 +24,6 @@ func _ready() -> void:
 	
 	for i in map_piece_amount : 
 		spawned_map_pieces.append(map.spawn_random_map_piece())
-	
 
 func _on_hero_exit_map_piece(): # + Enters a new map piece
 	if hero_current_map_piece < 6: hero_current_map_piece += 1
@@ -44,5 +43,5 @@ func _spawn_enemys(tilemaplayer : TileMapLayer):
 	var enemy_spawn_positions : Array[Vector2] = map.get_enemy_spawn_positions(tilemaplayer)
 	print("level_builder.enemy_spawn_positions = ", enemy_spawn_positions)
 	for spawn_position in enemy_spawn_positions :
-		enemy_factory.spawn_enemy(10, spawn_position)
+		enemy_factory.spawn_enemy(3, spawn_position)
 		pass

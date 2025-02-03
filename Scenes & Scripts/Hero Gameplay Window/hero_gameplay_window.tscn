@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/level_builder.gd" id="1_lij2l"]
 [ext_resource type="PackedScene" uid="uid://b4gamolr0hmd0" path="res://Scenes & Scripts/Hero Gameplay Window/Hero/hero.tscn" id="2_7k3ua"]
 [ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/enemy_factory.gd" id="3_usawu"]
-[ext_resource type="PackedScene" uid="uid://ddguxueh00sd0" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/enemy.tscn" id="4_3vm8m"]
+[ext_resource type="PackedScene" uid="uid://ddguxueh00sd0" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/Types/enemy.tscn" id="4_3vm8m"]
 [ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/HGW_debugger.gd" id="7_bdfcr"]
 [ext_resource type="PackedScene" uid="uid://cqu76jkkv7l1r" path="res://Scenes & Scripts/Hero Gameplay Window/Map/map.tscn" id="8_tv5xv"]
 

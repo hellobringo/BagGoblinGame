@@ -16,14 +16,14 @@ func _process(delta: float) -> void:
 	pass
 
 
-func spawn_enemy(amount : int, position : Vector2):
+func spawn_enemy(amount : int, position : Vector2): #add arg ", type : Array[Enemy.type]" ?
 	for i in amount:
 		var enemy : Enemy = pool.pull_from_pool()
 		enemy._hero = _hero
 		enemy.global_position = position + Vector2.ONE * (randi() % 50)
 		add_child(enemy)
 		enemy.spawn()
-	pass
+
 
 func _send_enemy_back_to_pool():
 	pass

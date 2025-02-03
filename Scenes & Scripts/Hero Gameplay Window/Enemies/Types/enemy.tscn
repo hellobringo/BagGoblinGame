@@ -1,0 +1,116 @@
+[gd_scene load_steps=18 format=3 uid="uid://ddguxueh00sd0"]
+
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/enemy.gd" id="1_rwa2t"]
+[ext_resource type="Texture2D" uid="uid://cuyvl672fusw8" path="res://Assets/Enemies/Skeleton/Enemy_Skeleton_1.png" id="2_gdw4g"]
+[ext_resource type="Script" path="res://addons/state_machine_nodes/state_machine.gd" id="3_ds10n"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/enemy_sprite_setter.gd" id="3_jkn77"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/enemy_animator.gd" id="4_5fccn"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/idle.gd" id="4_ka4cg"]
+[ext_resource type="Animation" uid="uid://eqfy2rtc3has" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/Types/Skeleton/attack.res" id="4_xxdub"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/chase_player.gd" id="5_c6p3i"]
+[ext_resource type="Animation" uid="uid://bi1bb4r8p1aqm" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/Types/Skeleton/die.res" id="5_tpqja"]
+[ext_resource type="Animation" uid="uid://b3pm6nqm1qmj2" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/Types/Skeleton/idle.res" id="6_3ybyy"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/Types/attack_state.gd" id="6_v4thf"]
+[ext_resource type="Animation" uid="uid://bmyak8i4ri4kv" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/Types/Skeleton/run.res" id="7_6rsml"]
+[ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/die.gd" id="7_y75jy"]
+
+[sub_resource type="Animation" id="Animation_jn23m"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("hitbox/hitboxshape:disabled")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_q84h3"]
+_data = {
+"RESET": SubResource("Animation_jn23m"),
+"attack": ExtResource("4_xxdub"),
+"die": ExtResource("5_tpqja"),
+"idle": ExtResource("6_3ybyy"),
+"run": ExtResource("7_6rsml")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h0e0a"]
+size = Vector2(36, 70)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qt0lb"]
+size = Vector2(64, 67.5)
+
+[node name="Enemy" type="Node2D"]
+script = ExtResource("1_rwa2t")
+hp = 10
+move_speed = 25.0
+attack_within_range = 1e+06
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-1, -26.7551)
+scale = Vector2(0.463574, 0.486332)
+texture = ExtResource("2_gdw4g")
+hframes = 6
+vframes = 7
+script = ExtResource("3_jkn77")
+sprite_sheets = Array[Texture]([ExtResource("2_gdw4g")])
+idle = Vector2i(12, 13)
+run = Vector2i(13, 17)
+attack = Vector2i(0, 5)
+die = Vector2i(6, 10)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_q84h3")
+}
+script = ExtResource("4_5fccn")
+
+[node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state")]
+script = ExtResource("3_ds10n")
+initial_state = NodePath("idle")
+
+[node name="idle" type="Node" parent="StateMachine"]
+script = ExtResource("4_ka4cg")
+
+[node name="chase_player" type="Node" parent="StateMachine"]
+script = ExtResource("5_c6p3i")
+
+[node name="attack" type="Node" parent="StateMachine"]
+script = ExtResource("6_v4thf")
+
+[node name="die" type="Node" parent="StateMachine"]
+script = ExtResource("7_y75jy")
+
+[node name="hurtbox" type="Area2D" parent="."]
+input_pickable = false
+
+[node name="hurtboxshape" type="CollisionShape2D" parent="hurtbox"]
+position = Vector2(0, -33)
+shape = SubResource("RectangleShape2D_h0e0a")
+
+[node name="hitbox" type="Area2D" parent="."]
+position = Vector2(11, -16)
+input_pickable = false
+
+[node name="hitboxshape" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(-30, -7.75)
+shape = SubResource("RectangleShape2D_qt0lb")
+disabled = true
+debug_color = Color(0.829262, 0.32325, 0.585167, 0.42)
