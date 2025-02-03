@@ -37,7 +37,6 @@ func _initialize_player() -> void:
 	else:
 		print("Failed to initialize player. 'map' or 'empty_tilemap' is null.")
 
-
 func _process(delta: float) -> void:
 	var mouse
 	if get_global_mouse_position() != null : label.text = "Global mouse position: " + str(get_global_mouse_position())

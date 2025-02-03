@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://ddguxueh00sd0"]
+[gd_scene load_steps=19 format=3 uid="uid://ddguxueh00sd0"]
 
 [ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/enemy.gd" id="1_rwa2t"]
 [ext_resource type="Texture2D" uid="uid://cuyvl672fusw8" path="res://Assets/Enemies/Skeleton/Enemy_Skeleton_1.png" id="2_gdw4g"]
@@ -50,17 +50,19 @@ _data = {
 "run": ExtResource("7_6rsml")
 }
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_h0e0a"]
-size = Vector2(36, 70)
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qt0lb"]
 size = Vector2(64, 67.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_updwc"]
+size = Vector2(43, 58)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h0e0a"]
+size = Vector2(36, 70)
 
 [node name="Enemy" type="Node2D"]
 script = ExtResource("1_rwa2t")
 hp = 10
 move_speed = 25.0
-attack_within_range = 1e+06
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
@@ -98,19 +100,30 @@ script = ExtResource("6_v4thf")
 [node name="die" type="Node" parent="StateMachine"]
 script = ExtResource("7_y75jy")
 
-[node name="hurtbox" type="Area2D" parent="."]
-input_pickable = false
-
-[node name="hurtboxshape" type="CollisionShape2D" parent="hurtbox"]
-position = Vector2(0, -33)
-shape = SubResource("RectangleShape2D_h0e0a")
-
 [node name="hitbox" type="Area2D" parent="."]
 position = Vector2(11, -16)
 input_pickable = false
+monitorable = false
 
 [node name="hitboxshape" type="CollisionShape2D" parent="hitbox"]
 position = Vector2(-30, -7.75)
 shape = SubResource("RectangleShape2D_qt0lb")
 disabled = true
 debug_color = Color(0.829262, 0.32325, 0.585167, 0.42)
+
+[node name="attack_range" type="Area2D" parent="."]
+input_pickable = false
+monitorable = false
+
+[node name="att_range_shape" type="CollisionShape2D" parent="attack_range"]
+position = Vector2(-11.5, -25)
+shape = SubResource("RectangleShape2D_updwc")
+debug_color = Color(0.646088, 0.521844, 5.77569e-07, 0.42)
+
+[node name="hurtbox" type="Area2D" parent="."]
+input_pickable = false
+monitorable = false
+
+[node name="hurtboxshape" type="CollisionShape2D" parent="hurtbox"]
+position = Vector2(0, -33)
+shape = SubResource("RectangleShape2D_h0e0a")

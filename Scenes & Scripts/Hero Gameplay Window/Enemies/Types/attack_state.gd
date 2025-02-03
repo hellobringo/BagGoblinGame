@@ -13,8 +13,15 @@ func _enter_state(old_state, state_data: Dictionary):
 	me.animator.animation_finished.connect(attack_finished)
 	pass
 
-func attack_finished():
-	me._state_machine.set_state("chase_player")
+func attack_finished(_anim):
+	var collisions = me.attack_range.get_overlapping_areas()
+	if collisions.size() == 0 :
+		me._state_machine.set_state("chase_player")
+	for collision in collisions :
+		if collision.is_in_group("hero"):
+			me._state_machine.enter_state("attack")
+		else : 
+			me._state_machine.set_state("chase_player")
 
 # Called by a StateMachine when the state is exited.
 func _exit_state(new_state, state_data: Dictionary):

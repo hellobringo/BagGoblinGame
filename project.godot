@@ -23,6 +23,7 @@ window/vsync/vsync_mode=0
 [global_group]
 
 exits="Exit tile collision group"
+hero=""
 
 [input]
 
