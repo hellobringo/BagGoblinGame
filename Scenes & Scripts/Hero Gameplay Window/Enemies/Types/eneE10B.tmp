@@ -63,7 +63,6 @@ size = Vector2(53, 58)
 size = Vector2(36, 70)
 
 [node name="Enemy" type="Node2D"]
-y_sort_enabled = true
 script = ExtResource("1_rwa2t")
 hp = 10
 move_speed = 25.0

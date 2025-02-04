@@ -10,6 +10,7 @@
 size = Vector2(25, 59)
 
 [node name="Hero" type="CharacterBody2D"]
+motion_mode = 1
 script = ExtResource("1_q6dwn")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
