@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://78sqpbeawjpd"]
+[gd_scene load_steps=9 format=3 uid="uid://78sqpbeawjpd"]
 
 [ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/camera_follow_target.gd" id="1_6607u"]
 [ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/level_builder.gd" id="1_lij2l"]
 [ext_resource type="PackedScene" uid="uid://b4gamolr0hmd0" path="res://Scenes & Scripts/Hero Gameplay Window/Hero/hero.tscn" id="2_7k3ua"]
 [ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/enemy_factory.gd" id="3_usawu"]
 [ext_resource type="PackedScene" uid="uid://ddguxueh00sd0" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/Types/enemy.tscn" id="4_3vm8m"]
+[ext_resource type="PackedScene" uid="uid://xiwmy28ekvbi" path="res://Scenes & Scripts/Hero Gameplay Window/Map/TileMapPieces/map_piece_0.tscn" id="4_jl8m0"]
 [ext_resource type="Script" path="res://Scenes & Scripts/Hero Gameplay Window/HGW_debugger.gd" id="7_bdfcr"]
 [ext_resource type="PackedScene" uid="uid://cqu76jkkv7l1r" path="res://Scenes & Scripts/Hero Gameplay Window/Map/map.tscn" id="8_tv5xv"]
 
@@ -20,6 +21,7 @@ target = NodePath("../Hero")
 
 [node name="Map" parent="." instance=ExtResource("8_tv5xv")]
 editor_description = "KEEP AT (0,0), SRSLY"
+map_pieces = Array[PackedScene]([ExtResource("4_jl8m0")])
 
 [node name="Hero" parent="." node_paths=PackedStringArray("map") instance=ExtResource("2_7k3ua")]
 map = NodePath("../Map")

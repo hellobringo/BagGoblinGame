@@ -1,6 +1,7 @@
 extends CharacterBody2D
+class_name Hero
 
-@export var map: DungeonMap
+@export var map: DungeonMap # set in hero gameplay window
 
 const MOTION_SPEED = 200 # Pixels/second.
 enum States { STOPPED, MOVING }
@@ -8,12 +9,22 @@ var _state = States.STOPPED
 var _destination = Vector2()
 var _next_cell = position
 var _path : PackedVector2Array = []
-@onready var area_2d: Area2D = $Area2D
+var current_map_piece : int = 0
+var initialized : bool = false
+
+@onready var state_machine: StateMachine = $StateMachine
+@onready var hurtbox: Area2D = $Area2D
+@onready var hitbox: Area2D = $hitbox
+@onready var enemy_finder: Area2D = $enemy_finder
+
+@onready var sprite_2d: Sprite2D = $Sprite2D
 
 @onready var label: Label = $Label
 @onready var label2: Label = $Label2
 
 signal exiting_map_piece
+
+var previous_x : float
 
 func _ready() -> void:
 	# First, check if 'map' itself is valid
@@ -27,7 +38,9 @@ func _ready() -> void:
 		call_deferred("_initialize_player")
 	else:
 		print("empty_tilemap is ready!")
-		_initialize_player()
+	
+	if not initialized : _initialize_player()
+
 
 func _initialize_player() -> void:
 	# Ensure map and empty_tilemap are valid before proceeding
@@ -36,25 +49,24 @@ func _initialize_player() -> void:
 		print("Player initialized at:", position)
 	else:
 		print("Failed to initialize player. 'map' or 'empty_tilemap' is null.")
+	previous_x = position.x
+	initialized = true
+	state_machine = $StateMachine
 
 func _process(delta: float) -> void:
-	var mouse
 	if get_global_mouse_position() != null : label.text = "Global mouse position: " + str(get_global_mouse_position())
 	if get_global_mouse_position() != null : label2.text = "Converted to cell: " + str(map.world_to_cell(get_global_mouse_position()))
 
-func _physics_process(_delta):
-	if _state == States.MOVING:
-		if position.distance_to(_next_cell) < 2:
-			position = _next_cell
-			if not _path or len(_path) == 1:
-				_state = States.STOPPED
-			else:
-				_next_cell = _path[1]
-				_path.remove_at(1)
-		else:
-			var motion = Vector2(_next_cell.x - position.x, _next_cell.y - position.y)
-			velocity = motion.normalized() * MOTION_SPEED
-			move_and_slide()
+
+#flip character based on previous x position
+func _flip_character_left_or_right():	
+	if previous_x < position.x :
+		hitbox.scale.x = 1
+		sprite_2d.flip_h = false
+	else : if previous_x > position.x :
+		hitbox.scale.x = -1
+		sprite_2d.flip_h = true
+	previous_x = position.x
 
 func _unhandled_input(event):
 	if event.is_action_pressed("click"):
@@ -68,3 +80,4 @@ func _unhandled_input(event):
 func _on_area_2d_area_entered(area: Area2D) -> void:
 	if area.is_in_group("exits"):
 		exiting_map_piece.emit()
+		area.remove_from_group("exits")

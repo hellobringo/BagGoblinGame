@@ -24,6 +24,8 @@ window/vsync/vsync_mode=0
 
 exits="Exit tile collision group"
 hero=""
+hero_attack=""
+enemy=""
 
 [input]
 

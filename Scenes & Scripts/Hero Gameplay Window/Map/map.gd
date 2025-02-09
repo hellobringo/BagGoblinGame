@@ -6,6 +6,10 @@ class_name DungeonMap
 var empty_tilemap
 var astar := AStar2D.new()
 var previous_exit_cell : Vector2i = Vector2i.ZERO
+var spawned_map_pieces : Array[TileMapLayer] = []
+
+# Dictionary of all enemies spawned, grouped by map piece
+var enemies_on_map : Dictionary = {} # key : map_piece , value : array[enemy]
 
 @export var debug_show_marker_cells : bool = false
 @export var font: SystemFont  # Assign a DynamicFont resource for text drawing
@@ -15,6 +19,9 @@ var previous_exit_cell : Vector2i = Vector2i.ZERO
 #		They are represented by a vector2i i.e. Vector2i(0, 1) 
 #	ID - Arbitrary id number for astar to differentiate points
 
+func _ready() -> void:
+	if position != Vector2(0,0) : push_error("MAP WASN'T AT 0,0. STUFF MIGHT BREAK")
+	position = Vector2(0,0)
 
 func initialize(): # Called from Level Builder's _ready()
 	empty_tilemap = $TileMapLayer
@@ -62,6 +69,17 @@ func get_enemy_spawn_positions(tilemaplayer : TileMapLayer) -> Array[Vector2] :
 			enemy_spawners.append(cell_global_position)
 	print(enemy_spawners)
 	return enemy_spawners
+
+func get_exit(tilemaplayer : TileMapLayer) -> Vector2 :
+	var exit : Vector2
+	var marker_tilemap : TileMapLayer = tilemaplayer.get_child(0)
+	var marker_cells = marker_tilemap.get_used_cells() # Get marker cells such as exit, spawn_enemies, etc.
+	for cell in marker_cells:
+		var is_exit = marker_tilemap.get_cell_tile_data(cell).get_custom_data("exit")
+		if is_exit:
+			var cell_global_position = cell_to_world(cell) + tilemaplayer.global_position
+			exit = cell_global_position
+	return exit
 
 func remove_from_astar(tilemaplayer : TileMapLayer):
 	if tilemaplayer:

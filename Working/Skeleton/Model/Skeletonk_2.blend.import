@@ -8,7 +8,7 @@ valid=false
 
 [deps]
 
-source_file="res://Assets/Enemies/Skeleton/Model/Skeletonk_2.blend"
+source_file="res://Working/Skeleton/Model/Skeletonk_2.blend"
 
 [params]
 

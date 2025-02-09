@@ -125,9 +125,8 @@ position = Vector2(-16.5, -25)
 shape = SubResource("RectangleShape2D_updwc")
 debug_color = Color(0.646088, 0.521844, 5.77569e-07, 0.42)
 
-[node name="hurtbox" type="Area2D" parent="."]
+[node name="hurtbox" type="Area2D" parent="." groups=["enemy"]]
 input_pickable = false
-monitorable = false
 
 [node name="hurtboxshape" type="CollisionShape2D" parent="hurtbox"]
 position = Vector2(0, -33)

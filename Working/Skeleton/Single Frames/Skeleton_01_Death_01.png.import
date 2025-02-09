@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dao5qdrp2ys5w"
-path="res://.godot/imported/Skeleton_01_Death_01.png-d240bc80af45c8d3860817e1c7aa4afd.ctex"
+path="res://.godot/imported/Skeleton_01_Death_01.png-7b9bf9ba77e3cb3b5744b98c336bfb08.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Skeleton/Single Frames/Skeleton_01_Death_01.png"
-dest_files=["res://.godot/imported/Skeleton_01_Death_01.png-d240bc80af45c8d3860817e1c7aa4afd.ctex"]
+source_file="res://Working/Skeleton/Single Frames/Skeleton_01_Death_01.png"
+dest_files=["res://.godot/imported/Skeleton_01_Death_01.png-7b9bf9ba77e3cb3b5744b98c336bfb08.ctex"]
 
 [params]
 

@@ -1,7 +1,7 @@
 extends StateNode
 class_name hero_state
 
-@onready var hero : CharacterBody2D = $"../.."
+@onready var me : Hero = $"../.."
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

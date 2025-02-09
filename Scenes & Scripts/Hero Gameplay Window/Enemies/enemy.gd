@@ -22,6 +22,7 @@ class_name Enemy
 @onready var hitbox: Area2D = $hitbox
 @onready var attack_range: Area2D = $attack_range
 
+var current_map_piece : TileMapLayer
 enum type {skeleton, tiger, crystal_lizard, fish_horse, wizard}
 @export var enemy_type : type
 
@@ -34,14 +35,14 @@ var _hero : Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	
 	found_hero()
 	pass # Replace with function body.
 
-func spawn(): #Set up enemy type here
+func spawn(map_piece : TileMapLayer): #Set up enemy type here
 	match type:
 		type.skeleton :
 			sprite.on_spawn(enemy_type)
+	current_map_piece = map_piece
 
 func _process(delta: float) -> void:
 	queue_redraw()

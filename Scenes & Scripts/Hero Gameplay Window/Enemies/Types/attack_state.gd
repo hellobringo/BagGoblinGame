@@ -1,16 +1,14 @@
 extends StateNode
 @onready var me: Enemy = $"../.."
 
-
 # Called by a StateMachine once it is ready.
 func _state_machine_ready() -> void:
 	pass
 
-
 # Called by a StateMachine when the state is entered.
 func _enter_state(old_state, state_data: Dictionary):
-	me.animator.play("attack")
 	me.animator.animation_finished.connect(attack_finished)
+	me.animator.play("attack")
 	pass
 
 func attack_finished(_anim):
