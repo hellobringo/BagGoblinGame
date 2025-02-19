@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfo08bfe0uf52"]
+
+[ext_resource type="ArrayMesh" uid="uid://b61yfo7pufkoy" path="res://Assets/Placeholder/POLYGON_Fantasy_Rivals_SourceFiles_v3/OBJ/SM_Wep_Slayer_01.obj" id="1_0aucy"]
+
+[node name="InventoryWeapon" type="SubViewport"]
+transparent_bg = true
+gui_disable_input = true
+size = Vector2i(160, 512)
+
+[node name="SmWepSlayer01" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.914042, 0, -0.40562, 0, 1, 0, 0.40562, 0, 0.914042, 0, -4.15625, 0)
+mesh = ExtResource("1_0aucy")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 141.459, 62.907, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.625226, -0.742225, 0.241234, -0.0163555, -0.321492, -0.946771, 0.780272, 0.588001, -0.213144, 251.94, 323.587, -266.977)
+light_energy = 3.032

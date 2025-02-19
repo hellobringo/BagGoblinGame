@@ -1,5 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dpdbgviyj3np4"]
-
-[ext_resource type="PackedScene" uid="uid://ddguxueh00sd0" path="res://Scenes & Scripts/Hero Gameplay Window/Enemies/Types/enemy.tscn" id="1_dsrhr"]
-
-[node name="Enemy" instance=ExtResource("1_dsrhr")]

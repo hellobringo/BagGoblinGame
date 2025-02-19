@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cng1viyok403"]
+
+[ext_resource type="Script" path="res://InvGrid/grid_item.gd" id="1_jqfkd"]
+
+[node name="myItem" type="Node2D"]
+position = Vector2(78, 571)
+script = ExtResource("1_jqfkd")
+
+[node name="mySprite" type="Sprite2D" parent="."]
+centered = false

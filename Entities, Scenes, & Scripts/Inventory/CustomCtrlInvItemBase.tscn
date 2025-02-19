@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxt82i200hbxj"]
+
+[ext_resource type="Script" path="res://Entities, Scenes, & Scripts/Inventory/CustomCtrlInvItemBase.gd" id="1_lm2ju"]
+[ext_resource type="PackedScene" uid="uid://dfo08bfe0uf52" path="res://Entities, Scenes, & Scripts/Inventory/inventory_weapon.tscn" id="2_5wa7n"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_d7t03"]
+viewport_path = NodePath("InventoryWeapon")
+
+[node name="CustomCtrlInvItemBase" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_lm2ju")
+icon_stretch_mode = 4
+
+[node name="InventoryWeapon" parent="." instance=ExtResource("2_5wa7n")]
+own_world_3d = true
+
+[node name="Label" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = " I T E M ! "
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 160.0
+offset_bottom = 512.0
+texture = SubResource("ViewportTexture_d7t03")
+expand_mode = 1
+stretch_mode = 5

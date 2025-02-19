@@ -1,0 +1,63 @@
+[gd_scene load_steps=7 format=3 uid="uid://bqp1a6bm2xsck"]
+
+[ext_resource type="Script" path="res://InvGrid/motherscript.gd" id="1_ur107"]
+[ext_resource type="Script" path="res://InvGrid/canvasscript.gd" id="2_i4xvo"]
+[ext_resource type="Texture2D" uid="uid://8a2ts5uukumd" path="res://InvGrid/myGuy.png" id="3_vc0fc"]
+[ext_resource type="Script" path="res://InvGrid/grid_drawer.gd" id="4_ugjr7"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_frfv6"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_a5ty2"]
+font_color = Color(0.677792, 0, 0.0582084, 1)
+shadow_size = 3
+shadow_color = Color(0, 0, 0, 0.713726)
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ur107")
+
+[node name="myNode" type="Node2D" parent="."]
+script = ExtResource("2_i4xvo")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="myNode"]
+
+[node name="Sprite2D" type="Sprite2D" parent="myNode/CanvasLayer"]
+position = Vector2(191, 300)
+scale = Vector2(0.664959, 0.523519)
+texture = ExtResource("3_vc0fc")
+
+[node name="left" type="Sprite2D" parent="myNode/CanvasLayer"]
+position = Vector2(74.108, 226.65)
+scale = Vector2(77.5, 122.7)
+texture = SubResource("CanvasTexture_frfv6")
+
+[node name="right" type="Sprite2D" parent="myNode/CanvasLayer"]
+position = Vector2(296.538, 226.65)
+scale = Vector2(77.5, 122.7)
+texture = SubResource("CanvasTexture_frfv6")
+
+[node name="small" type="Sprite2D" parent="myNode/CanvasLayer"]
+position = Vector2(186.848, 407.17)
+scale = Vector2(59.212, 55)
+texture = SubResource("CanvasTexture_frfv6")
+
+[node name="GridDrawer" type="Node2D" parent="myNode/CanvasLayer"]
+script = ExtResource("4_ugjr7")
+
+[node name="allItems" type="Node2D" parent="myNode/CanvasLayer/GridDrawer"]
+
+[node name="myItemLabel" type="Label" parent="myNode/CanvasLayer/GridDrawer"]
+offset_left = -295.0
+offset_top = 117.0
+offset_right = -172.0
+offset_bottom = 192.0
+text = "CUM CUM CUM
+CUM CUM CUM
+CUM CUMMMM"
+label_settings = SubResource("LabelSettings_a5ty2")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 67.0
+offset_top = 24.0
+offset_right = 261.0
+offset_bottom = 110.0
+text = "add rando"

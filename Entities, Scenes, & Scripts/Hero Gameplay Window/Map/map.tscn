@@ -1,0 +1,109 @@
+[gd_scene load_steps=14 format=3 uid="uid://cqu76jkkv7l1r"]
+
+[ext_resource type="Script" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Map/map.gd" id="1_t6r6h"]
+[ext_resource type="PackedScene" uid="uid://pafhdlfui0rg" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Map/TileMapPieces/test_mini_map_piece_1.tscn" id="2_ikfp3"]
+[ext_resource type="Texture2D" uid="uid://ce4v47hpr26ja" path="res://Assets/missingtexture.png" id="3_jti46"]
+[ext_resource type="PackedScene" uid="uid://d2fgd3al052su" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Map/TileMapPieces/test_mini_map_piece.tscn" id="3_o5ihe"]
+[ext_resource type="Texture2D" uid="uid://c6a486ghp051r" path="res://Assets/Placeholder/Quin tiles/quin_ph_tiles.png" id="5_0t3uy"]
+[ext_resource type="Texture2D" uid="uid://c706mqdosaxpr" path="res://Assets/Placeholder/skele.png" id="6_utmpy"]
+[ext_resource type="Script" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Hero/Hero.gd" id="7_wkcpj"]
+[ext_resource type="Texture2D" uid="uid://bac1drdhwlyuy" path="res://Assets/Placeholder/Kenny/tile_0108.png" id="8_tr01l"]
+[ext_resource type="Script" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Map/arrow_keys_movement.gd" id="9_tg8fw"]
+
+[sub_resource type="SystemFont" id="SystemFont_quy50"]
+subpixel_positioning = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0hjsk"]
+texture = ExtResource("5_0t3uy")
+texture_region_size = Vector2i(512, 512)
+0:1/0 = 0
+0:1/0/texture_origin = Vector2i(0, 95)
+3:1/0 = 0
+3:1/0/texture_origin = Vector2i(0, 95)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 95)
+0:0/0/custom_data_0 = true
+2:0/0 = 0
+2:0/0/texture_origin = Vector2i(0, 95)
+3:0/0 = 0
+3:0/0/texture_origin = Vector2i(0, 95)
+0:2/0 = 0
+0:2/0/texture_origin = Vector2i(0, 95)
+0:3/0 = 0
+0:3/0/texture_origin = Vector2i(0, 95)
+3:2/0 = 0
+3:2/0/texture_origin = Vector2i(0, 95)
+1:2/0 = 0
+1:2/0/texture_origin = Vector2i(0, 95)
+2:1/0 = 0
+2:1/0/texture_origin = Vector2i(0, 95)
+2:2/0 = 0
+2:2/0/texture_origin = Vector2i(0, 95)
+1:1/0 = 0
+1:1/0/texture_origin = Vector2i(0, 95)
+1:0/0 = 0
+1:0/0/texture_origin = Vector2i(0, 95)
+
+[sub_resource type="TileSet" id="TileSet_kxvf8"]
+tile_shape = 1
+tile_layout = 4
+tile_size = Vector2i(143, 100)
+custom_data_layer_0/name = "walkable"
+custom_data_layer_0/type = 1
+sources/0 = SubResource("TileSetAtlasSource_0hjsk")
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_f5egd"]
+
+[node name="Map" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1_t6r6h")
+map_pieces = Array[PackedScene]([ExtResource("2_ikfp3"), ExtResource("3_o5ihe")])
+debug_show_marker_cells = true
+font = SubResource("SystemFont_quy50")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("3_jti46")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+modulate = Color(1, 1, 1, 0.572549)
+y_sort_enabled = true
+texture_filter = 1
+tile_set = SubResource("TileSet_kxvf8")
+
+[node name="Skele" type="Sprite2D" parent="."]
+position = Vector2(-225, -157)
+scale = Vector2(0.296361, 0.296361)
+texture = ExtResource("6_utmpy")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+process_mode = 4
+visible = false
+position = Vector2(73, 30)
+script = ExtResource("7_wkcpj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_f5egd")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+scale = Vector2(4.25, 4.25)
+texture = ExtResource("8_tr01l")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(209, 132)
+script = ExtResource("9_tg8fw")
+speed = 3.0
+
+[node name="Label" type="Label" parent="Camera2D"]
+offset_left = -550.0
+offset_top = -300.0
+offset_right = -360.0
+offset_bottom = -273.0
+text = "Label 1"
+
+[node name="Label2" type="Label" parent="Camera2D"]
+offset_left = -549.0
+offset_top = -274.0
+offset_right = -359.0
+offset_bottom = -247.0
+text = "Label 2
+"

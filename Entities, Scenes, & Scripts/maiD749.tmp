@@ -1,0 +1,123 @@
+[gd_scene load_steps=11 format=3 uid="uid://bhwvuwnu5yw1"]
+
+[ext_resource type="PackedScene" uid="uid://78sqpbeawjpd" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/hero_gameplay_window.tscn" id="1_khhdl"]
+[ext_resource type="Script" path="res://addons/gloot/core/inventory.gd" id="2_c0haf"]
+[ext_resource type="JSON" path="res://Entities, Scenes, & Scripts/Inventory/inventory_json.json" id="3_76m50"]
+[ext_resource type="Script" path="res://addons/gloot/core/constraints/grid_constraint.gd" id="4_e5661"]
+[ext_resource type="Script" path="res://Entities, Scenes, & Scripts/InventoryManager.gd" id="5_mr18f"]
+[ext_resource type="Script" path="res://addons/gloot/ui/ctrl_inventory_grid.gd" id="6_k22y4"]
+[ext_resource type="PackedScene" uid="uid://bxt82i200hbxj" path="res://Entities, Scenes, & Scripts/Inventory/CustomCtrlInvItemBase.tscn" id="7_oap4d"]
+[ext_resource type="PackedScene" uid="uid://dfo08bfe0uf52" path="res://Entities, Scenes, & Scripts/Inventory/inventory_weapon.tscn" id="7_vns18"]
+
+[sub_resource type="Gradient" id="Gradient_ytkuf"]
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_tly27"]
+gradient = SubResource("Gradient_ytkuf")
+
+[node name="main" type="Node2D"]
+
+[node name="HeroGameplayContainer" type="Node2D" parent="."]
+process_mode = 4
+scale = Vector2(0.917867, 0.917867)
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="HeroGameplayContainer"]
+texture_filter = 1
+offset_left = 3.0
+offset_top = 12.0
+offset_right = 975.0
+offset_bottom = 604.0
+scale = Vector2(0.73516, 0.73516)
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="HeroGameplayContainer/SubViewportContainer"]
+handle_input_locally = false
+size = Vector2i(972, 592)
+render_target_update_mode = 4
+
+[node name="Hero Gameplay Window" parent="HeroGameplayContainer/SubViewportContainer/SubViewport" instance=ExtResource("1_khhdl")]
+
+[node name="border" type="Node2D" parent="HeroGameplayContainer"]
+
+[node name="Sprite2D" type="Sprite2D" parent="HeroGameplayContainer/border"]
+position = Vector2(361.4, 6.14467)
+scale = Vector2(2.8, 10.007)
+texture = SubResource("GradientTexture1D_tly27")
+
+[node name="Sprite2D3" type="Sprite2D" parent="HeroGameplayContainer/border"]
+position = Vector2(359.4, 448.145)
+rotation = -3.14159
+scale = Vector2(2.8, 10.007)
+texture = SubResource("GradientTexture1D_tly27")
+
+[node name="Sprite2D2" type="Sprite2D" parent="HeroGameplayContainer/border"]
+position = Vector2(6.40003, 227.145)
+rotation = 1.5708
+scale = Vector2(1.76676, 10.0068)
+texture = SubResource("GradientTexture1D_tly27")
+
+[node name="Sprite2D4" type="Sprite2D" parent="HeroGameplayContainer/border"]
+position = Vector2(716.4, 227.145)
+rotation = -1.5708
+scale = Vector2(1.76676, 10.0068)
+texture = SubResource("GradientTexture1D_tly27")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 701.0
+offset_top = 336.0
+offset_right = 741.0
+offset_bottom = 376.0
+
+[node name="Inventory Manager" type="Node" parent="Control"]
+script = ExtResource("5_mr18f")
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -35.0
+offset_right = 88.0
+offset_bottom = -4.0
+text = "add sword"
+
+[node name="Inventory" type="Node" parent="Control"]
+script = ExtResource("2_c0haf")
+protoset = ExtResource("3_76m50")
+_serialized_format = {}
+
+[node name="grid_constraint" type="Node" parent="Control/Inventory"]
+script = ExtResource("4_e5661")
+size = Vector2i(13, 9)
+
+[node name="CtrlInventoryGrid" type="Control" parent="Control" node_paths=PackedStringArray("inventory")]
+custom_minimum_size = Vector2(416, 288)
+anchors_preset = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 420.0
+offset_bottom = 291.0
+script = ExtResource("6_k22y4")
+inventory = NodePath("../Inventory")
+custom_item_control_scene = ExtResource("7_oap4d")
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+layout_mode = 0
+offset_left = 174.0
+offset_top = -317.0
+offset_right = 334.0
+offset_bottom = 195.0
+scale = Vector2(0.533016, 0.533016)
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+offset_left = 756.0
+offset_top = 25.0
+offset_right = 916.0
+offset_bottom = 537.0
+rotation = 7.34208e-05
+scale = Vector2(0.37, 0.37)
+
+[node name="InventoryWeapon" parent="SubViewportContainer" instance=ExtResource("7_vns18")]
+handle_input_locally = false
+render_target_update_mode = 4
+
+[connection signal="pressed" from="Control/Button" to="Control/Inventory Manager" method="_on_button_pressed"]

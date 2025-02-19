@@ -1,0 +1,12 @@
+{
+	"2x4_sword": {
+		"title": "Sword",
+		"size": "Vector2i(2, 4)",
+		"attack": 45
+	},
+	"2x2_potion": {
+		"title": "Potion",
+		"size": "Vector2i(2, 2)",
+		"image": "res://Assets/Placeholder/Kenny/flask_half.png"
+	}
+}
