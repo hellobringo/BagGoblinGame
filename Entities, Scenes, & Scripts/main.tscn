@@ -17,7 +17,6 @@ gradient = SubResource("Gradient_ytkuf")
 [node name="main" type="Node2D"]
 
 [node name="HeroGameplayContainer" type="Node2D" parent="."]
-process_mode = 4
 scale = Vector2(0.917867, 0.917867)
 
 [node name="SubViewportContainer" type="SubViewportContainer" parent="HeroGameplayContainer"]

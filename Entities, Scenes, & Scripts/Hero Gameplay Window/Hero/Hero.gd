@@ -16,7 +16,7 @@ var initialized : bool = false
 @onready var hurtbox: Area2D = $Area2D
 @onready var hitbox: Area2D = $hitbox
 @onready var enemy_finder: Area2D = $enemy_finder
-
+@onready var animator : AnimationPlayer = $animator
 @onready var sprite_2d: Sprite2D = $Sprite2D
 
 @onready var label: Label = $Label
@@ -59,13 +59,15 @@ func _process(delta: float) -> void:
 
 
 #flip character based on previous x position
-func _flip_character_left_or_right():	
+func flip_character_left_or_right():	
 	if previous_x < position.x :
 		hitbox.scale.x = 1
 		sprite_2d.flip_h = false
+		enemy_finder.scale.x = 1
 	else : if previous_x > position.x :
 		hitbox.scale.x = -1
 		sprite_2d.flip_h = true
+		enemy_finder.scale.x = -1
 	previous_x = position.x
 
 func _unhandled_input(event):

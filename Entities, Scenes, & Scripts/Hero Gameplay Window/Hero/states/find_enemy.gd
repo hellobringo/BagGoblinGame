@@ -29,7 +29,7 @@ func _enter_state(old_state, state_data: Dictionary):
 	if is_map_empty(me.map.spawned_map_pieces[me.current_map_piece]) :
 		me.state_machine.set_state("go_to_next_map_piece")
 		return
-	
+	me.animator.play("run")
 	call_deferred("set_path_to_target_enemy")
 
 
@@ -47,6 +47,7 @@ func _physics_process(delta: float) -> void:
 		var motion = Vector2(_next_cell.x - me.position.x, _next_cell.y - me.position.y)
 		me.velocity = motion.normalized() * me.MOTION_SPEED
 		me.move_and_slide()
+	me.flip_character_left_or_right()
 
 func set_path_to_target_enemy():
 	if me.current_map_piece == 0 :
@@ -74,3 +75,9 @@ func _process(delta: float) -> void:
 # Called by a StateMachine when the state is exited.
 func _exit_state(new_state, state_data: Dictionary):
 	pass
+
+
+func _on_enemy_finder_area_entered(area: Area2D) -> void:
+	if area.is_in_group("enemy"):
+		me.state_machine.set_state("attack")
+	pass # Replace with function body.

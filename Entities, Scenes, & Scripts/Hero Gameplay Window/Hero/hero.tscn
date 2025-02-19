@@ -2,10 +2,10 @@
 
 [ext_resource type="Script" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Hero/Hero.gd" id="1_q6dwn"]
 [ext_resource type="Texture2D" uid="uid://jxc8bmihdqul" path="res://Assets/Placeholder/Diablo2_0.png" id="2_iux0p"]
-[ext_resource type="Script" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Hero/enemy_finder.gd" id="3_f5glj"]
 [ext_resource type="Script" path="res://addons/state_machine_nodes/state_machine.gd" id="3_yn8ru"]
 [ext_resource type="Script" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Hero/states/find_enemy.gd" id="5_mrbie"]
 [ext_resource type="Script" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Hero/states/go_to_next_map_piece.gd" id="5_v62t5"]
+[ext_resource type="Script" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Hero/states/hero_attack_state.gd" id="7_ffa4t"]
 
 [sub_resource type="Animation" id="Animation_c75i8"]
 length = 0.001
@@ -96,7 +96,6 @@ shape = SubResource("RectangleShape2D_y4kp6")
 debug_color = Color(0.945083, 0.122705, 0.502787, 0.42)
 
 [node name="enemy_finder" type="Area2D" parent="."]
-script = ExtResource("3_f5glj")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="enemy_finder"]
 position = Vector2(39, -30.5)
@@ -114,10 +113,7 @@ script = ExtResource("5_mrbie")
 script = ExtResource("5_v62t5")
 
 [node name="attack" type="Node" parent="StateMachine"]
-script = ExtResource("5_v62t5")
-
-[node name="go_to_enemy3" type="Node" parent="StateMachine"]
-script = ExtResource("5_v62t5")
+script = ExtResource("7_ffa4t")
 
 [node name="Pathfinder" type="Node" parent="."]
 
@@ -136,5 +132,4 @@ offset_bottom = -117.0
 text = "Label 2"
 
 [connection signal="area_entered" from="hurtbox" to="." method="_on_area_2d_area_entered"]
-[connection signal="area_entered" from="enemy_finder" to="enemy_finder" method="_on_area_entered"]
-[connection signal="area_exited" from="enemy_finder" to="enemy_finder" method="_on_area_exited"]
+[connection signal="area_entered" from="enemy_finder" to="StateMachine/find_enemy" method="_on_enemy_finder_area_entered"]

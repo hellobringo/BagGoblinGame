@@ -36,6 +36,7 @@ func _physics_process(delta: float) -> void:
 		var motion = Vector2(_next_cell.x - me.position.x, _next_cell.y - me.position.y)
 		me.velocity = motion.normalized() * me.MOTION_SPEED
 		me.move_and_slide()
+	me.flip_character_left_or_right()
 
 func on_map_piece_exit():
 	me.state_machine.set_state("find_enemy")
