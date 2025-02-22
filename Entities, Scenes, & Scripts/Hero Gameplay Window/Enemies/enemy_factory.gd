@@ -25,7 +25,7 @@ func spawn_enemy(amount : int, position : Vector2, map_piece : TileMapLayer) -> 
 		array.append(enemy)
 		enemy._hero = _hero
 		enemy.global_position = position + Vector2.ONE * (randi() % 50)
-		add_child(enemy)
+		call_deferred("add_child", enemy)
 		enemy.spawn(map_piece)
 		#Map : Enemy dictionary stuff
 		if not map.enemies_on_map.has(map_piece): map.enemies_on_map[map_piece] = []  # Initialize an empty array for this map piece

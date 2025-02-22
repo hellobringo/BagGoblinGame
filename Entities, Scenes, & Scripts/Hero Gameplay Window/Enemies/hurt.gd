@@ -9,22 +9,20 @@ func _state_machine_ready() -> void:
 
 # Called by a StateMachine when the state is entered.
 func _enter_state(old_state, state_data: Dictionary):
+	me.hp -= 1
 	if !me.animator.animation_finished.is_connected(on_animation_finished) : me.animator.animation_finished.connect(on_animation_finished)
-	if !me.timer.timeout.is_connected(on_timer_finished) : me.timer.timeout.connect(on_timer_finished)
-	me.animator.play("die")
-
-
+	if me.hp <= 0 :
+		me._state_machine.set_state("die")
+	else :
+		me.animator.play("hurt")
+	pass
 
 func on_animation_finished(anim_name):
-	me.animator.animation_finished.disconnect(on_animation_finished)
+	if me.hp <= 0 :
+		me._state_machine.set_state("die")
+	else :
+		me._state_machine.set_state("chase_player")
 	
-	#wait 15 seconds
-	me.timer.wait_time = 5
-	me.timer.start()
-
-func on_timer_finished():
-	me.died.emit()
-
 
 # Called by a StateMachine when the state is exited.
 func _exit_state(new_state, state_data: Dictionary):

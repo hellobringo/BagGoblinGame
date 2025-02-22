@@ -11,7 +11,7 @@ func _enter_state(old_state, state_data: Dictionary):
 	me.animator.play("attack")
 	pass
 
-func attack_finished(_anim):
+func attack_finished(anim_name):
 	var collisions = me.attack_range.get_overlapping_areas()
 	if collisions.size() == 0 :
 		me._state_machine.set_state("chase_player")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://ddguxueh00sd0"]
+[gd_scene load_steps=22 format=3 uid="uid://ddguxueh00sd0"]
 
 [ext_resource type="Script" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Enemies/enemy.gd" id="1_rwa2t"]
 [ext_resource type="Texture2D" uid="uid://ce4v47hpr26ja" path="res://Assets/missingtexture.png" id="2_hee7p"]
@@ -79,9 +79,6 @@ size = Vector2(53, 58)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h0e0a"]
 size = Vector2(36, 70)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_4nevt"]
-size = Vector2(36, 68)
-
 [node name="Enemy" type="Node2D"]
 y_sort_enabled = true
 script = ExtResource("1_rwa2t")
@@ -146,15 +143,6 @@ input_pickable = false
 [node name="hurtboxshape" type="CollisionShape2D" parent="hurtbox"]
 position = Vector2(0, -33)
 shape = SubResource("RectangleShape2D_h0e0a")
-
-[node name="box_for_player_vision" type="Area2D" parent="." groups=["enemy"]]
-input_pickable = false
-
-[node name="player_vision_shape" type="CollisionShape2D" parent="box_for_player_vision"]
-position = Vector2(0, -33)
-shape = SubResource("RectangleShape2D_4nevt")
-
-[node name="Timer" type="Timer" parent="."]
 
 [node name="Debug" type="Node2D" parent="."]
 position = Vector2(-1, -78)

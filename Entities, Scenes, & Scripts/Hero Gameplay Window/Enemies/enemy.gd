@@ -21,6 +21,7 @@ class_name Enemy
 @onready var hurtbox: Area2D = $hurtbox
 @onready var hitbox: Area2D = $hitbox
 @onready var attack_range: Area2D = $attack_range
+@onready var timer: Timer = $Timer
 
 var current_map_piece : TileMapLayer
 enum type {skeleton, tiger, crystal_lizard, fish_horse, wizard}
@@ -50,3 +51,9 @@ func _process(delta: float) -> void:
 
 func found_hero() :
 	_state_machine.enter_state("chase_player")
+
+
+func _on_hurtbox_area_entered(area: Area2D) -> void:
+	if area.is_in_group("hero_attack") :
+		_state_machine.set_state("hurt")
+	pass # Replace with function body.

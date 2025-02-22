@@ -13,7 +13,7 @@ var current_map_piece : int = 0
 var initialized : bool = false
 
 @onready var state_machine: StateMachine = $StateMachine
-@onready var hurtbox: Area2D = $Area2D
+@onready var hurtbox: Area2D = $hurtbox
 @onready var hitbox: Area2D = $hitbox
 @onready var enemy_finder: Area2D = $enemy_finder
 @onready var animator : AnimationPlayer = $animator

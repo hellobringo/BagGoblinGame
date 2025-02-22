@@ -56,5 +56,5 @@ func _exit_state(new_state, state_data: Dictionary):
 
 
 func _on_attack_range_area_entered(area: Area2D) -> void:
-	if area.is_in_group("hero"):
+	if area.is_in_group("hero") and me._state_machine.get_state() == "chase_player" :
 		me._state_machine.enter_state("attack")
