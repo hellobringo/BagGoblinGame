@@ -4,11 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dyy51xd3i51hn"
-valid=false
+path="res://.godot/imported/Skeletonk_2.blend-66bd362eb4ce6a44e0b7856536928ee5.scn"
 
 [deps]
 
 source_file="res://Working/Skeleton/Model/Skeletonk_2.blend"
+dest_files=["res://.godot/imported/Skeletonk_2.blend-66bd362eb4ce6a44e0b7856536928ee5.scn"]
 
 [params]
 

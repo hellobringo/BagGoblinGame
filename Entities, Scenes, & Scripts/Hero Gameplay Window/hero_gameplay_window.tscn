@@ -6,7 +6,7 @@
 [ext_resource type="Script" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Enemies/enemy_factory.gd" id="3_usawu"]
 [ext_resource type="PackedScene" uid="uid://xiwmy28ekvbi" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Map/TileMapPieces/map_piece_0.tscn" id="4_jl8m0"]
 [ext_resource type="Script" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/HGW_debugger.gd" id="7_bdfcr"]
-[ext_resource type="PackedScene" uid="uid://dpdbgviyj3np4" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Enemies/Types/Skeleton/Skeleton.tscn" id="7_wifbh"]
+[ext_resource type="PackedScene" uid="uid://cr0p0xdmhg2ye" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Enemies/Types/Lizard/lizard.tscn" id="7_l15sk"]
 [ext_resource type="PackedScene" uid="uid://cqu76jkkv7l1r" path="res://Entities, Scenes, & Scripts/Hero Gameplay Window/Map/map.tscn" id="8_tv5xv"]
 
 [node name="Hero Gameplay Window" type="Node2D"]
@@ -28,7 +28,7 @@ map = NodePath("../Map")
 
 [node name="Enemy Factory" type="Node" parent="."]
 script = ExtResource("3_usawu")
-base_enemy_scene = ExtResource("7_wifbh")
+base_enemy_scene = ExtResource("7_l15sk")
 
 [node name="Debugging" type="Node2D" parent="."]
 script = ExtResource("7_bdfcr")

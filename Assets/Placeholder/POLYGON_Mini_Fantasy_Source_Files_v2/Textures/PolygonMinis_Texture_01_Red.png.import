@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r26nt6gvnxxu"
-path.s3tc="res://.godot/imported/PolygonMinis_Texture_01_Red.png-8bb7d560c6d48d7a673a4be419879c0a.s3tc.ctex"
+path.s3tc="res://.godot/imported/PolygonMinis_Texture_01_Red.png-b8df94afab9fbff66716523faaa3dd71.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/textures/PolygonMinis_Texture_01_Red.png"
-dest_files=["res://.godot/imported/PolygonMinis_Texture_01_Red.png-8bb7d560c6d48d7a673a4be419879c0a.s3tc.ctex"]
+source_file="res://Assets/Placeholder/POLYGON_Mini_Fantasy_Source_Files_v2/Textures/PolygonMinis_Texture_01_Red.png"
+dest_files=["res://.godot/imported/PolygonMinis_Texture_01_Red.png-b8df94afab9fbff66716523faaa3dd71.s3tc.ctex"]
 
 [params]
 
